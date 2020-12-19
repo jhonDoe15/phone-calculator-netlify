@@ -19,11 +19,11 @@ const App = () => {
           active={activeItem === 'home'}
           onClick={handleItemClick}
         />
-        <Menu.Item
+        {/* <Menu.Item
           name='else'
           active={activeItem === 'else'}
           onClick={handleItemClick}
-        />
+        /> */}
       </Menu>
       <PhonesGrid/>
     </div>
