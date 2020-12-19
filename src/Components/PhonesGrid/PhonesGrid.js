@@ -4,12 +4,16 @@ import allDevices from './devices'
 import scores from './scores'
 import { Slider } from 'react-semantic-ui-range'
 import 'semantic-ui-css/semantic.min.css';
-import { Segment, Grid } from 'semantic-ui-react';
+import { Segment, Grid, Checkbox } from 'semantic-ui-react';
 const PhonesDisplay = props => {
 
     const [devices, setDevices] = useState(allDevices);
     const [antutu, setAntutu] = useState(0);
     const [bl, setBl] = useState(0);
+    const [ir, setIr] = useState(false);
+    const [nfc, setNfc] = useState(false);
+    const [dualSim, setDualSim] = useState(false);
+    const [hj, setHj] = useState(false);
     const [edgeScores, setEdgeScores] = useState({});
 
     const settings3 = {
@@ -19,7 +23,6 @@ const PhonesDisplay = props => {
         step: 10000,
         onChange: (value) => {
             setAntutu(value)
-            setDevices(allDevices.filter(phone => phone.antutu >= value))
         }
     }
 
@@ -30,7 +33,6 @@ const PhonesDisplay = props => {
         step: 1,
         onChange: (value) => {
             setBl(value)
-            setDevices(allDevices.filter(phone => phone.batterylife >= value))
         }
     }
 
@@ -41,8 +43,18 @@ const PhonesDisplay = props => {
         return totalScore;
     }
 
+    const filteredDevices = (input_devices) => {
+        return input_devices
+            .filter(phone => phone.antutu >= antutu)
+            .filter(phone => phone.batterylife >= bl)
+            .filter(phone => (phone.nfc && nfc) || !nfc)
+            .filter(phone => (phone.headphonejack && hj) || !hj)
+            .filter(phone => (phone.dualsim && dualSim) || !dualSim)
+            .filter(phone => (phone.ir && ir) || !ir)
+    }
+
     const sortedDevices = (input_devices) => {
-        return input_devices.sort((b, a) => calcScoreForDevice(a.antutu, a.batterylife) - calcScoreForDevice(b.antutu, b.batterylife))
+        return filteredDevices(input_devices).sort((b, a) => calcScoreForDevice(a.antutu, a.batterylife) - calcScoreForDevice(b.antutu, b.batterylife))
             .filter(device => device.antutu > 0 && device.batterylife > 0)
             .filter(device => calcScoreForDevice(device.antutu, device.batterylife) > 0)
     }
@@ -74,14 +86,23 @@ const PhonesDisplay = props => {
             <Grid style={{ textAlign: 'center' }} padded>
                 <Grid.Column width={3}></Grid.Column>
                 <Grid.Column width={10}>
-                    <Segment inverted>
-                            antutu: {antutu} points
+                    <Segment inverted style={{ textAlign: 'left' }}>
+                        antutu: {antutu} points
                             <Slider color="red" inverted value={antutu} settings={settings3} />
-                            
-                            <br/>
+
+                        <br />
                             battery life: {bl} h
                             <Slider color="teal" inverted value={bl} settings={settings2} />
-                            
+                        <br />
+
+                        <Checkbox onChange={(e, data) => setNfc(data.checked)} />NFC<br />
+
+                        <Checkbox onChange={(e, data) => setIr(data.checked)} />IR<br />
+
+                        <Checkbox onChange={(e, data) => setDualSim(data.checked)} />Dual Sim<br />
+
+                        <Checkbox onChange={(e, data) => setHj(data.checked)} />Headphone Jack (3.5mm port)<br />
+
 
                     </Segment>
                 </Grid.Column>
