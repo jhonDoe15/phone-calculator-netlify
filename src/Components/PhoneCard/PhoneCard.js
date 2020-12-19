@@ -19,10 +19,10 @@ const PhoneCard = (props) => {
                     <span className='date'>Launched in {props.device.year}</span>
                 </Card.Meta>
                 <Card.Description style={{ textAlign: 'left', fontSize: '1vw',backgroundColor: 'black', color: 'white' }}>
-                    IR: {props.device.ir === "1" ? "True" : "False"}<br />
-                    NFC: {props.device.nfc === "1" ? "True" : "False"}<br />
-                    DUALSIM: {props.device.dualsim === "1" ? "True" : "False"}<br />
-                    3.5mm Jack: {props.device.headphonejack === "1" ? "True" : "False"}<br />
+                    IR: {props.device.ir === true ? "True" : "False"}<br />
+                    NFC: {props.device.nfc === true ? "True" : "False"}<br />
+                    DUALSIM: {props.device.dualsim === true ? "True" : "False"}<br />
+                    3.5mm Jack: {props.device.headphonejack === true ? "True" : "False"}<br />
                     Battery Life: {props.device.batterylife}<br />
                     Price: {props.device.price}$<br />
                     Screen Size: {props.device.screensize}<br />
