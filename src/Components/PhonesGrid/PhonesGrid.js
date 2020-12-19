@@ -86,7 +86,7 @@ const PhonesDisplay = props => {
             <Grid style={{ textAlign: 'center' }} padded>
                 <Grid.Column width={3}></Grid.Column>
                 <Grid.Column width={10}>
-                    <Segment inverted style={{ textAlign: 'left' }}>
+                    <Segment inverted >
                         antutu: {antutu} points
                             <Slider color="red" inverted value={antutu} settings={settings3} />
 
@@ -94,14 +94,22 @@ const PhonesDisplay = props => {
                             battery life: {bl} h
                             <Slider color="teal" inverted value={bl} settings={settings2} />
                         <br />
-
-                        <Checkbox onChange={(e, data) => setNfc(data.checked)} />NFC<br />
-
-                        <Checkbox onChange={(e, data) => setIr(data.checked)} />IR<br />
-
-                        <Checkbox onChange={(e, data) => setDualSim(data.checked)} />Dual Sim<br />
-
-                        <Checkbox onChange={(e, data) => setHj(data.checked)} />Headphone Jack (3.5mm port)<br />
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <h3 style={{ marginRight: '1em' }}>NFC</h3>
+                            <Checkbox onChange={(e, data) => setNfc(data.checked)} />
+                        </div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <h3 style={{ marginRight: '1em' }}>IR</h3>
+                            <Checkbox onChange={(e, data) => setIr(data.checked)} />
+                        </div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <h3 style={{ marginRight: '1em' }}>Dual Sim</h3>
+                            <Checkbox onChange={(e, data) => setDualSim(data.checked)} />
+                        </div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <h3 style={{ marginRight: '1em' }}>Headphone Jack (3.5mm port)</h3>
+                            <Checkbox onChange={(e, data) => setHj(data.checked)} />
+                        </div>
 
 
                     </Segment>
