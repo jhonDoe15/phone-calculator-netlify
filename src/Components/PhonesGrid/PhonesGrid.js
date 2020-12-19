@@ -16,7 +16,6 @@ const PhonesDisplay = props => {
         max: scores.topPerformance,
         step: 100,
         onChange: (value) => {
-            console.log(value)
             setDevices(allDevices.filter(phone => phone.antutu >= value))
         }
     }
