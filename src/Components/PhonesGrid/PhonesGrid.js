@@ -8,6 +8,8 @@ import { Segment, Grid } from 'semantic-ui-react';
 const PhonesDisplay = props => {
 
     const [devices, setDevices] = useState(allDevices);
+    const [antutu, setAntutu] = useState(0);
+    const [bl, setBl] = useState(0);
     const [edgeScores, setEdgeScores] = useState({});
 
     const settings3 = {
@@ -16,6 +18,7 @@ const PhonesDisplay = props => {
         max: scores.topPerformance,
         step: 100,
         onChange: (value) => {
+            setAntutu(value)
             setDevices(allDevices.filter(phone => phone.antutu >= value))
         }
     }
@@ -26,6 +29,7 @@ const PhonesDisplay = props => {
         max: scores.topBatteryLife,
         step: 1,
         onChange: (value) => {
+            setBl(value)
             setDevices(allDevices.filter(phone => phone.batterylife >= value))
         }
     }
@@ -71,12 +75,13 @@ const PhonesDisplay = props => {
                 <Grid.Column width={3}></Grid.Column>
                 <Grid.Column width={10}>
                     <Segment inverted>
-
-                        antutu
-                            <Slider color="red" inverted settings={settings3} />
-
-                            battery life
-                            <Slider color="teal" inverted settings={settings2} />
+                            antutu: {antutu} points
+                            <Slider color="red" inverted value={antutu} settings={settings3} />
+                            
+                            <br/>
+                            battery life: {bl} h
+                            <Slider color="teal" inverted value={bl} settings={settings2} />
+                            
 
                     </Segment>
                 </Grid.Column>
