@@ -2,15 +2,34 @@ import React, { Fragment, useEffect, useState } from 'react'
 import PhoneCard from '../PhoneCard/PhoneCard'
 import allDevices from './devices'
 import scores from './scores'
-const PhonesDisplay = (props) => {
+import { Slider } from 'react-semantic-ui-range'
+import 'semantic-ui-css/semantic.min.css';
+import { Segment, Grid } from 'semantic-ui-react';
+const PhonesDisplay = props => {
 
-    useEffect(() => {
-        setDevices(allDevices);
-        setEdgeScores(scores);
-    }, []);
-
-    const [devices, setDevices] = useState([]);
+    const [devices, setDevices] = useState(allDevices);
     const [edgeScores, setEdgeScores] = useState({});
+
+    const settings3 = {
+        start: scores.minPerformance,
+        min: 0,
+        max: scores.topPerformance,
+        step: 100,
+        onChange: (value) => {
+            console.log(value)
+            setDevices(allDevices.filter(phone => phone.antutu >= value))
+        }
+    }
+
+    const settings2 = {
+        start: scores.minBatteryLife,
+        min: 0,
+        max: scores.topBatteryLife,
+        step: 1,
+        onChange: (value) => {
+            setDevices(allDevices.filter(phone => phone.batterylife >= value))
+        }
+    }
 
     const calcScoreForDevice = (antutu, batterylife) => {
         const benchScore = ((antutu - edgeScores.minPerformance) / (edgeScores.topPerformance - edgeScores.minPerformance));//preformance score
@@ -18,27 +37,52 @@ const PhonesDisplay = (props) => {
         const totalScore = (benchScore + batteryScore) / 2 * 100;//Total score without considiration to price
         return totalScore;
     }
-    const devicesToShow = devices.sort((b, a) => calcScoreForDevice(a.antutu, a.batterylife) - calcScoreForDevice(b.antutu, b.batterylife))
-        .filter(device => device.antutu > 0 && device.batterylife > 0)
-        .filter(device => calcScoreForDevice(device.antutu, device.batterylife) > 0)
-    const firstColoumn = devicesToShow.filter((device, index) => (parseInt(index) % 3) === 0).map(device => {
+
+    const sortedDevices = (input_devices) => {
+        return input_devices.sort((b, a) => calcScoreForDevice(a.antutu, a.batterylife) - calcScoreForDevice(b.antutu, b.batterylife))
+            .filter(device => device.antutu > 0 && device.batterylife > 0)
+            .filter(device => calcScoreForDevice(device.antutu, device.batterylife) > 0)
+    }
+
+    useEffect(() => {
+        setEdgeScores(scores);
+        setDevices(allDevices);
+    }, []);
+
+
+    const firstColoumn = sortedDevices(devices).filter((device, index) => (parseInt(index) % 3) === 0).map((device, index) => {
         return (
-            <PhoneCard key={device.Id} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
+            <PhoneCard key={index} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
         )
     })
-    const secondColoumn = devicesToShow.filter((device, index) => (parseInt(index) % 3) === 1).map(device => {
+    const secondColoumn = sortedDevices(devices).filter((device, index) => (parseInt(index) % 3) === 1).map((device, index) => {
         return (
-            <PhoneCard key={device.Id} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
+            <PhoneCard key={index} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
         )
     })
-    const thirdColoumn = devicesToShow.filter((device, index) => (parseInt(index) % 3) === 2).map(device => {
+    const thirdColoumn = sortedDevices(devices).filter((device, index) => (parseInt(index) % 3) === 2).map((device, index) => {
         return (
-            <PhoneCard key={device.Id} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
+            <PhoneCard key={index} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
         )
     })
 
     return (
         <Fragment>
+            <Grid style={{ textAlign: 'center' }} padded>
+                <Grid.Column width={3}></Grid.Column>
+                <Grid.Column width={10}>
+                    <Segment inverted>
+
+                        antutu
+                            <Slider color="red" inverted settings={settings3} />
+
+                            battery life
+                            <Slider color="teal" inverted settings={settings2} />
+
+                    </Segment>
+                </Grid.Column>
+                <Grid.Column width={3}></Grid.Column>
+            </Grid>
             <div className="ui grid">
                 <div className="two wide column"></div>
                 <div className="four wide column">
