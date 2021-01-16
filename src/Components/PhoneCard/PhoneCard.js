@@ -18,7 +18,7 @@ const PhoneCard = (props) => {
                 <Card.Meta style={{backgroundColor: 'black', color: 'white'}}>
                     <span className='date'>Launched in {props.device.year}</span>
                 </Card.Meta>
-                <Card.Description style={{ textAlign: 'left', fontSize: '1vw',backgroundColor: 'black', color: 'white' }}>
+                <Card.Description style={{ textAlign: 'left', fontSize: '1.3em',backgroundColor: 'black', color: 'white' }}>
                     IR: {props.device.ir === true ? "True" : "False"}<br />
                     NFC: {props.device.nfc === true ? "True" : "False"}<br />
                     DUALSIM: {props.device.dualsim === true ? "True" : "False"}<br />
