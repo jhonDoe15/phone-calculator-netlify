@@ -4,7 +4,7 @@ import allDevices from './devices'
 import scores from './scores'
 import { Slider } from 'react-semantic-ui-range'
 import 'semantic-ui-css/semantic.min.css';
-import { Segment, Grid, Checkbox } from 'semantic-ui-react';
+import { Segment, Grid, Checkbox, Card } from 'semantic-ui-react';
 const PhonesDisplay = props => {
 
     const [devices, setDevices] = useState(allDevices);
@@ -65,19 +65,9 @@ const PhonesDisplay = props => {
     }, []);
 
 
-    const firstColoumn = sortedDevices(devices).filter((device, index) => (parseInt(index) % 3) === 0).map((device, index) => {
+    const phones = sortedDevices(devices).map((device, index) => {
         return (
-            <PhoneCard key={index} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
-        )
-    })
-    const secondColoumn = sortedDevices(devices).filter((device, index) => (parseInt(index) % 3) === 1).map((device, index) => {
-        return (
-            <PhoneCard key={index} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
-        )
-    })
-    const thirdColoumn = sortedDevices(devices).filter((device, index) => (parseInt(index) % 3) === 2).map((device, index) => {
-        return (
-            <PhoneCard key={index} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
+            <PhoneCard style={{display: 'inline-block'}} key={index} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
         )
     })
 
@@ -117,17 +107,13 @@ const PhonesDisplay = props => {
                 <Grid.Column width={3}></Grid.Column>
             </Grid>
             <div className="ui grid">
-                <div className="two wide column"></div>
-                <div className="four wide column">
-                    {firstColoumn}
+                <div className="three wide column"></div>
+                <div className="twelve wide column">
+                <Card.Group>
+                    {phones}
+                </Card.Group>
                 </div>
-                <div className="four wide column">
-                    {secondColoumn}
-                </div>
-                <div className="four wide column">
-                    {thirdColoumn}
-                </div>
-                <div className="two wide column"></div>
+                <div className="three wide column"></div>
             </div>
         </Fragment>
     )
