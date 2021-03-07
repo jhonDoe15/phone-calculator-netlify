@@ -1,7 +1,7 @@
 const scores = {
-    minPerformance: 0,
-    topPerformance: 660133,
-    minBatteryLife: 0,
+    minPerformance: 37000,
+    topPerformance: 744877,
+    minBatteryLife: 59,
     topBatteryLife: 156
     }
 
