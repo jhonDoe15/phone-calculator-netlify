@@ -3,7 +3,7 @@ const allDevices = [
         "Id": 0,
         "devicename": "Samsung Galaxy S20 FE 5G",
         "batterylife": 110,
-        "price": 695,
+        "price": 539,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-fe-5g.jpg",
@@ -36,8 +36,8 @@ const allDevices = [
     {
         "Id": 2,
         "devicename": "Samsung Galaxy A42 5G",
-        "batterylife": 0,
-        "price": 366,
+        "batterylife": 144,
+        "price": 319,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a42-5g.jpg",
@@ -54,7 +54,7 @@ const allDevices = [
         "Id": 3,
         "devicename": "Samsung Galaxy M51",
         "batterylife": 156,
-        "price": 483,
+        "price": 368,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m51.jpg",
@@ -173,7 +173,7 @@ const allDevices = [
         "Id": 10,
         "devicename": "Samsung Galaxy Z Flip 5G",
         "batterylife": 0,
-        "price": 1,
+        "price": 999,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip-5g-mystic-bronze.jpg",
@@ -222,23 +222,6 @@ const allDevices = [
     },
     {
         "Id": 207,
-        "devicename": "Samsung Galaxy M31 Prime",
-        "batterylife": 0,
-        "price": 0,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m31-sm-m315f.jpg",
-        "screensize": 6.4,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_m31_prime-10496.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 180011
-    },
-    {
-        "Id": 207,
         "devicename": "Samsung Galaxy M31s",
         "batterylife": 0,
         "price": 289,
@@ -256,23 +239,6 @@ const allDevices = [
     },
     {
         "Id": 207,
-        "devicename": "Samsung Galaxy M01 Core",
-        "batterylife": 0,
-        "price": 0,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a01core-sm-a013.jpg",
-        "screensize": 5.3,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_m01_core-10316.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 35000
-    },
-    {
-        "Id": 207,
         "devicename": "Samsung Galaxy A71 5G UW",
         "batterylife": 0,
         "price": 0,
@@ -287,23 +253,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 332400
-    },
-    {
-        "Id": 207,
-        "devicename": "Samsung Galaxy A21s",
-        "batterylife": 119,
-        "price": 174,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a21s-.jpg",
-        "screensize": 6.5,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_a21s-10239.php",
-        "nfc": true,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 117341
     },
     {
         "Id": 207,
@@ -326,7 +275,7 @@ const allDevices = [
         "Id": 13,
         "devicename": "Samsung Galaxy A71 5G",
         "batterylife": 0,
-        "price": 349,
+        "price": 385,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a71-5g.jpg",
@@ -343,7 +292,7 @@ const allDevices = [
         "Id": 14,
         "devicename": "Samsung Galaxy A51 5G",
         "batterylife": 90,
-        "price": 359,
+        "price": 349,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a51-5g.jpg",
@@ -355,23 +304,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 332400
-    },
-    {
-        "Id": 207,
-        "devicename": "Samsung Galaxy M11",
-        "batterylife": 0,
-        "price": 176,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m11-sm-m115.jpg",
-        "screensize": 6.4,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_m11-10124.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 74800
     },
     {
         "Id": 207,
@@ -392,26 +324,9 @@ const allDevices = [
     },
     {
         "Id": 207,
-        "devicename": "Samsung Galaxy A11",
-        "batterylife": 0,
-        "price": 136,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a11.jpg",
-        "screensize": 6.4,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_a11-10132.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 74800
-    },
-    {
-        "Id": 207,
         "devicename": "Samsung Galaxy S20 Ultra 5G",
         "batterylife": 87,
-        "price": 918,
+        "price": 802,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-ultra-.jpg",
@@ -428,7 +343,7 @@ const allDevices = [
         "Id": 15,
         "devicename": "Samsung Galaxy S20 Ultra",
         "batterylife": 0,
-        "price": 929,
+        "price": 829,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-ultra-.jpg",
@@ -445,7 +360,7 @@ const allDevices = [
         "Id": 16,
         "devicename": "Samsung Galaxy S20+ 5G",
         "batterylife": 0,
-        "price": 599,
+        "price": 649,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-plus.jpg",
@@ -462,7 +377,7 @@ const allDevices = [
         "Id": 17,
         "devicename": "Samsung Galaxy S20+",
         "batterylife": 87,
-        "price": 684,
+        "price": 599,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-plus.jpg",
@@ -496,7 +411,7 @@ const allDevices = [
         "Id": 19,
         "devicename": "Samsung Galaxy S20 5G",
         "batterylife": 0,
-        "price": 779,
+        "price": 674,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-.jpg",
@@ -513,7 +428,7 @@ const allDevices = [
         "Id": 20,
         "devicename": "Samsung Galaxy S20",
         "batterylife": 71,
-        "price": 689,
+        "price": 552,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-.jpg",
@@ -530,7 +445,7 @@ const allDevices = [
         "Id": 21,
         "devicename": "Samsung Galaxy Z Flip",
         "batterylife": 0,
-        "price": 799,
+        "price": 784,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip-01.jpg",
@@ -538,13 +453,13 @@ const allDevices = [
         "phoneURL": "https://www.gsmarena.com/samsung_galaxy_z_flip-10054.php",
         "nfc": true,
         "headphonejack": false,
-        "dualsim": false,
+        "dualsim": true,
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 455000
     },
     {
-        "Id": 207,
+        "Id": 22,
         "devicename": "Samsung Galaxy Note10 Lite",
         "batterylife": 92,
         "price": 414,
@@ -561,10 +476,10 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 22,
+        "Id": 23,
         "devicename": "Samsung Galaxy S10 Lite",
         "batterylife": 110,
-        "price": 479,
+        "price": 444,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/sasmung-galaxy-s10-lite-.jpg",
@@ -578,7 +493,7 @@ const allDevices = [
         "antutu": 452004
     },
     {
-        "Id": 207,
+        "Id": 24,
         "devicename": "Samsung Galaxy A71",
         "batterylife": 102,
         "price": 319,
@@ -595,7 +510,7 @@ const allDevices = [
         "antutu": 265041
     },
     {
-        "Id": 207,
+        "Id": 25,
         "devicename": "Samsung Galaxy Xcover FieldPro",
         "batterylife": 0,
         "price": 832,
@@ -612,7 +527,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 23,
+        "Id": 26,
         "devicename": "Samsung Galaxy A70s",
         "batterylife": 0,
         "price": 309,
@@ -627,23 +542,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 212000
-    },
-    {
-        "Id": 207,
-        "devicename": "Samsung Galaxy M30s",
-        "batterylife": 130,
-        "price": 354,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m30s-.jpg",
-        "screensize": 6.4,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_m30s-9818.php",
-        "nfc": true,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 180011
     },
     {
         "Id": 207,
@@ -663,7 +561,7 @@ const allDevices = [
         "antutu": 435000
     },
     {
-        "Id": 24,
+        "Id": 27,
         "devicename": "Samsung Galaxy Fold",
         "batterylife": 90,
         "price": 1427,
@@ -680,10 +578,10 @@ const allDevices = [
         "antutu": 435000
     },
     {
-        "Id": 25,
+        "Id": 28,
         "devicename": "Samsung Galaxy A90 5G",
         "batterylife": 0,
-        "price": 509,
+        "price": 569,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a90-5g.jpg",
@@ -697,27 +595,10 @@ const allDevices = [
         "antutu": 452004
     },
     {
-        "Id": 207,
-        "devicename": "Samsung Galaxy A50s",
-        "batterylife": 0,
-        "price": 309,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50s.jpg",
-        "screensize": 6.4,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_a50s-9806.php",
-        "nfc": true,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 179570
-    },
-    {
         "Id": 26,
         "devicename": "Samsung Galaxy Note10+ 5G",
         "batterylife": 0,
-        "price": 739,
+        "price": 787,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note10-plus-.jpg",
@@ -731,10 +612,10 @@ const allDevices = [
         "antutu": 438005
     },
     {
-        "Id": 27,
+        "Id": 29,
         "devicename": "Samsung Galaxy Note10+",
         "batterylife": 107,
-        "price": 573,
+        "price": 503,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note10-plus-.jpg",
@@ -748,7 +629,7 @@ const allDevices = [
         "antutu": 438005
     },
     {
-        "Id": 28,
+        "Id": 30,
         "devicename": "Samsung Galaxy Note10 5G",
         "batterylife": 0,
         "price": 897,
@@ -765,7 +646,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 29,
+        "Id": 31,
         "devicename": "Samsung Galaxy Note10",
         "batterylife": 92,
         "price": 478,
@@ -780,23 +661,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 0
-    },
-    {
-        "Id": 207,
-        "devicename": "Samsung Galaxy A10e",
-        "batterylife": 0,
-        "price": 68,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a10e-sm-a102u.jpg",
-        "screensize": 5.83,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_a10e-9790.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": false,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 105713
     },
     {
         "Id": 207,
@@ -816,10 +680,10 @@ const allDevices = [
         "antutu": 46130
     },
     {
-        "Id": 30,
+        "Id": 32,
         "devicename": "Samsung Galaxy S10 5G",
         "batterylife": 0,
-        "price": 424,
+        "price": 364,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-5g.jpg",
@@ -833,10 +697,10 @@ const allDevices = [
         "antutu": 416057
     },
     {
-        "Id": 31,
+        "Id": 33,
         "devicename": "Samsung Galaxy S10+",
         "batterylife": 91,
-        "price": 438,
+        "price": 409,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-plus-new.jpg",
@@ -850,10 +714,10 @@ const allDevices = [
         "antutu": 395326
     },
     {
-        "Id": 32,
+        "Id": 34,
         "devicename": "Samsung Galaxy S10",
         "batterylife": 79,
-        "price": 444,
+        "price": 374,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10.jpg",
@@ -867,10 +731,10 @@ const allDevices = [
         "antutu": 415000
     },
     {
-        "Id": 33,
+        "Id": 35,
         "devicename": "Samsung Galaxy S10e",
         "batterylife": 83,
-        "price": 351,
+        "price": 315,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10e.jpg",
@@ -884,7 +748,7 @@ const allDevices = [
         "antutu": 389919
     },
     {
-        "Id": 34,
+        "Id": 36,
         "devicename": "Nokia 5.4",
         "batterylife": 0,
         "price": 179,
@@ -901,7 +765,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 112,
+        "Id": 37,
         "devicename": "Nokia 8000 4G",
         "batterylife": 0,
         "price": 65,
@@ -918,7 +782,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 35,
+        "Id": 38,
         "devicename": "Nokia 6300 4G",
         "batterylife": 0,
         "price": 40,
@@ -935,7 +799,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 36,
+        "Id": 39,
         "devicename": "Nokia 8 V 5G UW",
         "batterylife": 0,
         "price": 700.0,
@@ -952,10 +816,10 @@ const allDevices = [
         "antutu": 325370
     },
     {
-        "Id": 246,
+        "Id": 40,
         "devicename": "Xiaomi Redmi Note 9 Pro 5G",
         "batterylife": 0,
-        "price": 319,
+        "price": 339,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note9-pro.jpg",
@@ -969,7 +833,7 @@ const allDevices = [
         "antutu": 351232
     },
     {
-        "Id": 37,
+        "Id": 41,
         "devicename": "Xiaomi Redmi Note 9 5G",
         "batterylife": 0,
         "price": 289,
@@ -984,23 +848,6 @@ const allDevices = [
         "ir": true,
         "dxomarkScore": 0,
         "antutu": 345370
-    },
-    {
-        "Id": 246,
-        "devicename": "Xiaomi Poco M3",
-        "batterylife": 154,
-        "price": 149,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m3-.jpg",
-        "screensize": 6.53,
-        "phoneURL": "https://www.gsmarena.com/xiaomi_poco_m3-10599.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": true,
-        "dxomarkScore": 0,
-        "antutu": 171161
     },
     {
         "Id": 38,
@@ -1020,10 +867,10 @@ const allDevices = [
         "antutu": 660133
     },
     {
-        "Id": 207,
+        "Id": 42,
         "devicename": "Xiaomi Mi 10T Pro 5G",
         "batterylife": 118,
-        "price": 698,
+        "price": 588,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10t-5g-pro.jpg",
@@ -1037,10 +884,10 @@ const allDevices = [
         "antutu": 646515
     },
     {
-        "Id": 39,
+        "Id": 43,
         "devicename": "Xiaomi Mi 10T 5G",
         "batterylife": 0,
-        "price": 499,
+        "price": 424,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10t-5g-.jpg",
@@ -1054,7 +901,7 @@ const allDevices = [
         "antutu": 589000
     },
     {
-        "Id": 40,
+        "Id": 44,
         "devicename": "Xiaomi Mi 10T Lite 5G",
         "batterylife": 116,
         "price": 299,
@@ -1069,23 +916,6 @@ const allDevices = [
         "ir": true,
         "dxomarkScore": 0,
         "antutu": 330000
-    },
-    {
-        "Id": 207,
-        "devicename": "Xiaomi Redmi 9i",
-        "batterylife": 0,
-        "price": 0,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9a-1.jpg",
-        "screensize": 6.53,
-        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_9i-10399.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 102778
     },
     {
         "Id": 41,
@@ -1105,7 +935,7 @@ const allDevices = [
         "antutu": 203078
     },
     {
-        "Id": 42,
+        "Id": 45,
         "devicename": "Xiaomi Poco X3",
         "batterylife": 0,
         "price": 219,
@@ -1122,10 +952,10 @@ const allDevices = [
         "antutu": 301581
     },
     {
-        "Id": 43,
+        "Id": 46,
         "devicename": "Xiaomi Poco X3 NFC",
         "batterylife": 125,
-        "price": 219,
+        "price": 205,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x3-nfc.jpg",
@@ -1139,7 +969,7 @@ const allDevices = [
         "antutu": 301581
     },
     {
-        "Id": 44,
+        "Id": 47,
         "devicename": "Xiaomi Redmi 9 (India)",
         "batterylife": 0,
         "price": 0,
@@ -1156,7 +986,7 @@ const allDevices = [
         "antutu": 203078
     },
     {
-        "Id": 45,
+        "Id": 48,
         "devicename": "Xiaomi Mi 10 Ultra",
         "batterylife": 0,
         "price": 929,
@@ -1173,10 +1003,10 @@ const allDevices = [
         "antutu": 589000
     },
     {
-        "Id": 46,
+        "Id": 49,
         "devicename": "Xiaomi Redmi K30 Ultra",
         "batterylife": 0,
-        "price": 405,
+        "price": 439,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k30-ultra.jpg",
@@ -1190,7 +1020,7 @@ const allDevices = [
         "antutu": 539786
     },
     {
-        "Id": 47,
+        "Id": 50,
         "devicename": "Xiaomi Redmi 9 Prime",
         "batterylife": 0,
         "price": 0,
@@ -1207,7 +1037,7 @@ const allDevices = [
         "antutu": 203078
     },
     {
-        "Id": 48,
+        "Id": 51,
         "devicename": "Xiaomi Black Shark 3S",
         "batterylife": 0,
         "price": 489,
@@ -1224,7 +1054,7 @@ const allDevices = [
         "antutu": 294520
     },
     {
-        "Id": 49,
+        "Id": 52,
         "devicename": "Xiaomi Poco M2 Pro",
         "batterylife": 0,
         "price": 0,
@@ -1242,26 +1072,9 @@ const allDevices = [
     },
     {
         "Id": 207,
-        "devicename": "Xiaomi Redmi 9C NFC",
-        "batterylife": 0,
-        "price": 81,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9c-.jpg",
-        "screensize": 6.53,
-        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_9c_nfc-10277.php",
-        "nfc": true,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 110490
-    },
-    {
-        "Id": 207,
         "devicename": "Xiaomi Redmi 9",
         "batterylife": 131,
-        "price": 124,
+        "price": 115,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9.jpg",
@@ -1275,7 +1088,7 @@ const allDevices = [
         "antutu": 203078
     },
     {
-        "Id": 50,
+        "Id": 53,
         "devicename": "Xiaomi Redmi 10X Pro 5G",
         "batterylife": 0,
         "price": 236,
@@ -1292,7 +1105,7 @@ const allDevices = [
         "antutu": 415672
     },
     {
-        "Id": 51,
+        "Id": 54,
         "devicename": "Xiaomi Redmi 10X 5G",
         "batterylife": 0,
         "price": 269,
@@ -1309,10 +1122,10 @@ const allDevices = [
         "antutu": 415672
     },
     {
-        "Id": 52,
+        "Id": 55,
         "devicename": "Xiaomi Redmi 10X 4G",
         "batterylife": 0,
-        "price": 194,
+        "price": 199,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-10x-4g.jpg",
@@ -1326,7 +1139,7 @@ const allDevices = [
         "antutu": 205946
     },
     {
-        "Id": 53,
+        "Id": 56,
         "devicename": "Xiaomi Redmi K30i 5G",
         "batterylife": 0,
         "price": 203,
@@ -1343,10 +1156,10 @@ const allDevices = [
         "antutu": 325370
     },
     {
-        "Id": 54,
+        "Id": 57,
         "devicename": "Xiaomi Poco F2 Pro",
         "batterylife": 120,
-        "price": 560,
+        "price": 410,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f2-pro.jpg",
@@ -1360,7 +1173,7 @@ const allDevices = [
         "antutu": 568976
     },
     {
-        "Id": 55,
+        "Id": 58,
         "devicename": "Xiaomi Redmi K30 5G Racing",
         "batterylife": 0,
         "price": 212,
@@ -1377,10 +1190,10 @@ const allDevices = [
         "antutu": 325370
     },
     {
-        "Id": 56,
+        "Id": 59,
         "devicename": "Xiaomi Redmi Note 9 Pro",
         "batterylife": 123,
-        "price": 204,
+        "price": 215,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9-pro-global-.jpg",
@@ -1394,10 +1207,10 @@ const allDevices = [
         "antutu": 274596
     },
     {
-        "Id": 57,
+        "Id": 60,
         "devicename": "Xiaomi Redmi Note 9",
         "batterylife": 125,
-        "price": 157,
+        "price": 136,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9.jpg",
@@ -1411,10 +1224,10 @@ const allDevices = [
         "antutu": 205946
     },
     {
-        "Id": 58,
+        "Id": 61,
         "devicename": "Xiaomi Mi Note 10 Lite",
         "batterylife": 117,
-        "price": 298,
+        "price": 299,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-note-10-lite-.jpg",
@@ -1428,7 +1241,7 @@ const allDevices = [
         "antutu": 264493
     },
     {
-        "Id": 59,
+        "Id": 62,
         "devicename": "Xiaomi Mi 10 Youth 5G",
         "batterylife": 0,
         "price": 220,
@@ -1445,7 +1258,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 60,
+        "Id": 63,
         "devicename": "Google Pixel 5",
         "batterylife": 95,
         "price": 699,
@@ -1462,10 +1275,10 @@ const allDevices = [
         "antutu": 330500
     },
     {
-        "Id": 61,
+        "Id": 64,
         "devicename": "Google Pixel 4a 5G",
         "batterylife": 0,
-        "price": 438,
+        "price": 449,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4a-5g.jpg",
@@ -1479,7 +1292,7 @@ const allDevices = [
         "antutu": 330500
     },
     {
-        "Id": 62,
+        "Id": 65,
         "devicename": "Google Pixel 4a",
         "batterylife": 76,
         "price": 349,
@@ -1496,10 +1309,10 @@ const allDevices = [
         "antutu": 275000
     },
     {
-        "Id": 63,
+        "Id": 66,
         "devicename": "Google Pixel 4 XL",
         "batterylife": 73,
-        "price": 644,
+        "price": 579,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4-r1.jpg",
@@ -1513,10 +1326,10 @@ const allDevices = [
         "antutu": 425000
     },
     {
-        "Id": 64,
+        "Id": 67,
         "devicename": "Google Pixel 4",
         "batterylife": 62,
-        "price": 399,
+        "price": 314,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4-r1.jpg",
@@ -1530,27 +1343,10 @@ const allDevices = [
         "antutu": 425000
     },
     {
-        "Id": 260,
-        "devicename": "Google Pixel 3a",
-        "batterylife": 0,
-        "price": 269,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3a.jpg",
-        "screensize": 5.6,
-        "phoneURL": "https://www.gsmarena.com/google_pixel_3a-9408.php",
-        "nfc": true,
-        "headphonejack": true,
-        "dualsim": false,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 159000
-    },
-    {
         "Id": 65,
         "devicename": "Google Pixel 3 XL",
         "batterylife": 0,
-        "price": 264,
+        "price": 274,
         "BasemarkX": 0,
         "year": 2018,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3xl-.jpg",
@@ -1564,10 +1360,10 @@ const allDevices = [
         "antutu": 275000
     },
     {
-        "Id": 66,
+        "Id": 68,
         "devicename": "Google Pixel 3",
         "batterylife": 69,
-        "price": 261,
+        "price": 218,
         "BasemarkX": 0,
         "year": 2018,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3-.jpg",
@@ -1581,7 +1377,7 @@ const allDevices = [
         "antutu": 275000
     },
     {
-        "Id": 67,
+        "Id": 69,
         "devicename": "Oppo A53 5G",
         "batterylife": 0,
         "price": 130,
@@ -1598,10 +1394,10 @@ const allDevices = [
         "antutu": 301000
     },
     {
-        "Id": 68,
+        "Id": 70,
         "devicename": "Oppo Reno5 Pro 5G",
         "batterylife": 0,
-        "price": 350,
+        "price": 497,
         "BasemarkX": 0,
         "year": 2021,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-pro-5g-.jpg",
@@ -1615,10 +1411,10 @@ const allDevices = [
         "antutu": 541437
     },
     {
-        "Id": 69,
+        "Id": 71,
         "devicename": "Oppo Reno5 5G",
         "batterylife": 0,
-        "price": 277,
+        "price": 469,
         "BasemarkX": 0,
         "year": 2021,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-5g.jpg",
@@ -1632,10 +1428,10 @@ const allDevices = [
         "antutu": 325000
     },
     {
-        "Id": 70,
+        "Id": 72,
         "devicename": "Oppo A73 5G",
         "batterylife": 0,
-        "price": 305,
+        "price": 520,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a73-5g-.jpg",
@@ -1649,7 +1445,7 @@ const allDevices = [
         "antutu": 301000
     },
     {
-        "Id": 71,
+        "Id": 73,
         "devicename": "Oppo Reno4 F",
         "batterylife": 0,
         "price": 203,
@@ -1664,23 +1460,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 325000
-    },
-    {
-        "Id": 260,
-        "devicename": "Oppo A53s",
-        "batterylife": 0,
-        "price": 249,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53-2020.jpg",
-        "screensize": 6.5,
-        "phoneURL": "https://www.gsmarena.com/oppo_a53s-10502.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 138156
     },
     {
         "Id": 260,
@@ -1700,10 +1479,10 @@ const allDevices = [
         "antutu": 207915
     },
     {
-        "Id": 72,
+        "Id": 74,
         "devicename": "Oppo Reno4 Z 5G",
         "batterylife": 78,
-        "price": 448,
+        "price": 359,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a92s.jpg",
@@ -1717,7 +1496,7 @@ const allDevices = [
         "antutu": 325776
     },
     {
-        "Id": 73,
+        "Id": 75,
         "devicename": "Oppo Reno4 Lite",
         "batterylife": 0,
         "price": 301,
@@ -1734,7 +1513,7 @@ const allDevices = [
         "antutu": 207500
     },
     {
-        "Id": 260,
+        "Id": 76,
         "devicename": "Oppo Reno4 SE",
         "batterylife": 0,
         "price": 261,
@@ -1751,7 +1530,7 @@ const allDevices = [
         "antutu": 301000
     },
     {
-        "Id": 74,
+        "Id": 77,
         "devicename": "Oppo F17 Pro",
         "batterylife": 0,
         "price": 0,
@@ -1766,23 +1545,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 207915
-    },
-    {
-        "Id": 260,
-        "devicename": "Oppo A32",
-        "batterylife": 0,
-        "price": 122,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a32.jpg",
-        "screensize": 6.5,
-        "phoneURL": "https://www.gsmarena.com/oppo_a32-10454.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 138156
     },
     {
         "Id": 260,
@@ -1802,10 +1564,10 @@ const allDevices = [
         "antutu": 240000
     },
     {
-        "Id": 75,
+        "Id": 78,
         "devicename": "Oppo Reno4 Pro",
         "batterylife": 96,
-        "price": 599,
+        "price": 565,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-pro.jpg",
@@ -1819,7 +1581,7 @@ const allDevices = [
         "antutu": 325000
     },
     {
-        "Id": 76,
+        "Id": 79,
         "devicename": "Oppo Reno4",
         "batterylife": 0,
         "price": 0,
@@ -1836,7 +1598,7 @@ const allDevices = [
         "antutu": 325000
     },
     {
-        "Id": 77,
+        "Id": 80,
         "devicename": "Oppo A72 5G",
         "batterylife": 0,
         "price": 285,
@@ -1853,7 +1615,7 @@ const allDevices = [
         "antutu": 240000
     },
     {
-        "Id": 260,
+        "Id": 81,
         "devicename": "Oppo Reno4 Pro 5G",
         "batterylife": 91,
         "price": 679,
@@ -1870,7 +1632,7 @@ const allDevices = [
         "antutu": 325000
     },
     {
-        "Id": 78,
+        "Id": 82,
         "devicename": "Oppo Reno4 5G",
         "batterylife": 0,
         "price": 549,
@@ -1887,10 +1649,10 @@ const allDevices = [
         "antutu": 325000
     },
     {
-        "Id": 260,
+        "Id": 83,
         "devicename": "Oppo Find X2 Neo",
         "batterylife": 100,
-        "price": 712,
+        "price": 803,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2-neo.jpg",
@@ -1904,7 +1666,7 @@ const allDevices = [
         "antutu": 321000
     },
     {
-        "Id": 79,
+        "Id": 84,
         "devicename": "Oppo A92s",
         "batterylife": 0,
         "price": 236,
@@ -1919,23 +1681,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 325776
-    },
-    {
-        "Id": 260,
-        "devicename": "Oppo A52",
-        "batterylife": 0,
-        "price": 187,
-        "BasemarkX": 0,
-        "year": 2020,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a52.jpg",
-        "screensize": 6.5,
-        "phoneURL": "https://www.gsmarena.com/oppo_a52-10194.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 171000
     },
     {
         "Id": 260,
@@ -1955,10 +1700,10 @@ const allDevices = [
         "antutu": 323234
     },
     {
-        "Id": 80,
+        "Id": 85,
         "devicename": "Oppo Find X2 Lite",
         "batterylife": 0,
-        "price": 674,
+        "price": 468,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2-lite.jpg",
@@ -1972,7 +1717,7 @@ const allDevices = [
         "antutu": 321000
     },
     {
-        "Id": 81,
+        "Id": 86,
         "devicename": "Oppo Ace2",
         "batterylife": 0,
         "price": 424,
@@ -1989,7 +1734,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 82,
+        "Id": 87,
         "devicename": "Oppo A12e",
         "batterylife": 0,
         "price": 97,
@@ -2006,7 +1751,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 83,
+        "Id": 88,
         "devicename": "Oppo Reno3",
         "batterylife": 0,
         "price": 358,
@@ -2023,10 +1768,10 @@ const allDevices = [
         "antutu": 213000
     },
     {
-        "Id": 84,
+        "Id": 89,
         "devicename": "Oppo Find X2 Pro",
         "batterylife": 88,
-        "price": 1,
+        "price": 977,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2-pro.jpg",
@@ -2040,10 +1785,10 @@ const allDevices = [
         "antutu": 605184
     },
     {
-        "Id": 85,
+        "Id": 90,
         "devicename": "Oppo Find X2",
         "batterylife": 0,
-        "price": 654,
+        "price": 699,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2.jpg",
@@ -2057,7 +1802,7 @@ const allDevices = [
         "antutu": 590253
     },
     {
-        "Id": 86,
+        "Id": 91,
         "devicename": "Oppo Reno3 Pro",
         "batterylife": 104,
         "price": 0,
@@ -2074,10 +1819,10 @@ const allDevices = [
         "antutu": 320822
     },
     {
-        "Id": 307,
+        "Id": 92,
         "devicename": "OnePlus Nord N10 5G",
         "batterylife": 99,
-        "price": 299,
+        "price": 269,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-n10-5g-.jpg",
@@ -2091,10 +1836,10 @@ const allDevices = [
         "antutu": 275000
     },
     {
-        "Id": 307,
+        "Id": 93,
         "devicename": "OnePlus 8T",
         "batterylife": 104,
-        "price": 559,
+        "price": 541,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8t.jpg",
@@ -2108,7 +1853,7 @@ const allDevices = [
         "antutu": 595000
     },
     {
-        "Id": 87,
+        "Id": 94,
         "devicename": "OnePlus 8T+ 5G",
         "batterylife": 0,
         "price": 750.0,
@@ -2125,7 +1870,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 88,
+        "Id": 95,
         "devicename": "OnePlus Nord",
         "batterylife": 100,
         "price": 217,
@@ -2142,7 +1887,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 89,
+        "Id": 96,
         "devicename": "OnePlus 8 Pro",
         "batterylife": 103,
         "price": 699,
@@ -2159,10 +1904,10 @@ const allDevices = [
         "antutu": 579417
     },
     {
-        "Id": 90,
+        "Id": 97,
         "devicename": "OnePlus 8",
         "batterylife": 108,
-        "price": 445,
+        "price": 248,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8.jpg",
@@ -2176,7 +1921,7 @@ const allDevices = [
         "antutu": 584789
     },
     {
-        "Id": 91,
+        "Id": 98,
         "devicename": "OnePlus 8 5G UW (Verizon)",
         "batterylife": 0,
         "price": 603,
@@ -2193,7 +1938,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 92,
+        "Id": 99,
         "devicename": "OnePlus 8 5G (T-Mobile)",
         "batterylife": 0,
         "price": 530,
@@ -2210,7 +1955,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 93,
+        "Id": 100,
         "devicename": "OnePlus 7T Pro 5G McLaren",
         "batterylife": 0,
         "price": 652,
@@ -2227,10 +1972,10 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 94,
+        "Id": 101,
         "devicename": "OnePlus 7T Pro",
         "batterylife": 100,
-        "price": 604,
+        "price": 594,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-pro.jpg",
@@ -2244,10 +1989,10 @@ const allDevices = [
         "antutu": 482415
     },
     {
-        "Id": 95,
+        "Id": 102,
         "devicename": "OnePlus 7T",
         "batterylife": 90,
-        "price": 324,
+        "price": 399,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-.jpg",
@@ -2261,7 +2006,7 @@ const allDevices = [
         "antutu": 482415
     },
     {
-        "Id": 96,
+        "Id": 103,
         "devicename": "OnePlus 7 Pro 5G",
         "batterylife": 0,
         "price": 652,
@@ -2278,10 +2023,10 @@ const allDevices = [
         "antutu": 447375
     },
     {
-        "Id": 97,
+        "Id": 104,
         "devicename": "OnePlus 7 Pro",
         "batterylife": 85,
-        "price": 481,
+        "price": 515,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7-pro-r1.jpg",
@@ -2295,10 +2040,10 @@ const allDevices = [
         "antutu": 447375
     },
     {
-        "Id": 98,
+        "Id": 105,
         "devicename": "OnePlus 7",
         "batterylife": 102,
-        "price": 412,
+        "price": 454,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7--.jpg",
@@ -2312,7 +2057,7 @@ const allDevices = [
         "antutu": 446345
     },
     {
-        "Id": 99,
+        "Id": 106,
         "devicename": "OnePlus 6T McLaren",
         "batterylife": 0,
         "price": 571,
@@ -2329,7 +2074,7 @@ const allDevices = [
         "antutu": 297132
     },
     {
-        "Id": 100,
+        "Id": 107,
         "devicename": "OnePlus 6T",
         "batterylife": 90,
         "price": 199,
@@ -2346,7 +2091,7 @@ const allDevices = [
         "antutu": 297132
     },
     {
-        "Id": 101,
+        "Id": 108,
         "devicename": "OnePlus 6",
         "batterylife": 76,
         "price": 262,
@@ -2363,10 +2108,10 @@ const allDevices = [
         "antutu": 292275
     },
     {
-        "Id": 102,
+        "Id": 109,
         "devicename": "Asus Zenfone 7 Pro ZS671KS",
         "batterylife": 99,
-        "price": 898,
+        "price": 539,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone7-pro-zs670ks-zs671ks-b.jpg",
@@ -2380,10 +2125,10 @@ const allDevices = [
         "antutu": 645000
     },
     {
-        "Id": 103,
+        "Id": 110,
         "devicename": "Asus Zenfone 7 ZS670KS",
         "batterylife": 0,
-        "price": 689,
+        "price": 539,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone7-pro-zs670ks-zs671ks.jpg",
@@ -2397,10 +2142,10 @@ const allDevices = [
         "antutu": 590000
     },
     {
-        "Id": 104,
+        "Id": 111,
         "devicename": "Asus ROG Phone 3 ZS661KS",
         "batterylife": 120,
-        "price": 618,
+        "price": 605,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-3-zs661ks.jpg",
@@ -2414,10 +2159,10 @@ const allDevices = [
         "antutu": 626992
     },
     {
-        "Id": 105,
+        "Id": 112,
         "devicename": "Asus ROG Phone 3 Strix",
         "batterylife": 0,
-        "price": 608,
+        "price": 579,
         "BasemarkX": 0,
         "year": 2020,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone3-strix.jpg",
@@ -2431,7 +2176,7 @@ const allDevices = [
         "antutu": 626992
     },
     {
-        "Id": 106,
+        "Id": 113,
         "devicename": "Asus ROG Phone II ZS660KL",
         "batterylife": 114,
         "price": 1,
@@ -2448,7 +2193,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 107,
+        "Id": 114,
         "devicename": "Asus Zenfone 6 ZS630KL",
         "batterylife": 112,
         "price": 595,
@@ -2465,7 +2210,7 @@ const allDevices = [
         "antutu": 435000
     },
     {
-        "Id": 307,
+        "Id": 115,
         "devicename": "Asus Zenfone Max Plus (M2) ZB634KL",
         "batterylife": 0,
         "price": 163,
@@ -2482,7 +2227,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 307,
+        "Id": 116,
         "devicename": "Asus Zenfone Max Pro (M2) ZB631KL",
         "batterylife": 0,
         "price": 301,
@@ -2499,7 +2244,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 108,
+        "Id": 117,
         "devicename": "Asus Zenfone Max (M2) ZB633KL",
         "batterylife": 0,
         "price": 0,
@@ -2516,7 +2261,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 109,
+        "Id": 118,
         "devicename": "Asus Zenfone Max (M1) ZB556KL",
         "batterylife": 0,
         "price": 97,
@@ -2533,7 +2278,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 110,
+        "Id": 119,
         "devicename": "Asus ZenFone Lite (L1) ZA551KL",
         "batterylife": 0,
         "price": 65,
@@ -2550,10 +2295,10 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 111,
+        "Id": 120,
         "devicename": "Asus ROG Phone ZS600KL",
         "batterylife": 69,
-        "price": 799,
+        "price": 749,
         "BasemarkX": 0,
         "year": 2018,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone.jpg",
@@ -2567,7 +2312,7 @@ const allDevices = [
         "antutu": 304183
     },
     {
-        "Id": 112,
+        "Id": 121,
         "devicename": "Asus ZenFone Live (L1) ZA550KL",
         "batterylife": 0,
         "price": 81,
@@ -2584,7 +2329,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 113,
+        "Id": 122,
         "devicename": "Asus Zenfone Max Pro (M1) ZB601KL/ZB602K",
         "batterylife": 0,
         "price": 130,
@@ -2601,7 +2346,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 114,
+        "Id": 123,
         "devicename": "Asus Zenfone 5z ZS620KL",
         "batterylife": 0,
         "price": 407,
@@ -2616,23 +2361,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 274499
-    },
-    {
-        "Id": 307,
-        "devicename": "Asus Zenfone 5 Lite ZC600KL",
-        "batterylife": 0,
-        "price": 163,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone-5-lite-r.jpg",
-        "screensize": 6.0,
-        "phoneURL": "https://www.gsmarena.com/asus_zenfone_5_lite_zc600kl-9068.php",
-        "nfc": true,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 71289
     },
     {
         "Id": 115,
@@ -2652,7 +2380,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 116,
+        "Id": 124,
         "devicename": "Apple iPhone 12 Pro Max",
         "batterylife": 95,
         "price": 1,
@@ -2669,7 +2397,7 @@ const allDevices = [
         "antutu": 577532
     },
     {
-        "Id": 117,
+        "Id": 125,
         "devicename": "Apple iPhone 12 Pro",
         "batterylife": 81,
         "price": 999,
@@ -2686,7 +2414,7 @@ const allDevices = [
         "antutu": 574155
     },
     {
-        "Id": 118,
+        "Id": 126,
         "devicename": "Apple iPhone 12",
         "batterylife": 84,
         "price": 809,
@@ -2703,7 +2431,7 @@ const allDevices = [
         "antutu": 573719
     },
     {
-        "Id": 119,
+        "Id": 127,
         "devicename": "Apple iPhone 12 mini",
         "batterylife": 69,
         "price": 635,
@@ -2720,7 +2448,7 @@ const allDevices = [
         "antutu": 523445
     },
     {
-        "Id": 246,
+        "Id": 128,
         "devicename": "Apple iPhone 11 Pro Max",
         "batterylife": 102,
         "price": 869,
@@ -2737,7 +2465,7 @@ const allDevices = [
         "antutu": 522333
     },
     {
-        "Id": 120,
+        "Id": 129,
         "devicename": "Apple iPhone 11 Pro",
         "batterylife": 86,
         "price": 730,
@@ -2754,7 +2482,7 @@ const allDevices = [
         "antutu": 515327
     },
     {
-        "Id": 121,
+        "Id": 130,
         "devicename": "Apple iPhone 11",
         "batterylife": 94,
         "price": 599,
@@ -2771,7 +2499,7 @@ const allDevices = [
         "antutu": 521227
     },
     {
-        "Id": 122,
+        "Id": 131,
         "devicename": "Apple iPhone XS Max",
         "batterylife": 79,
         "price": 456,
@@ -2788,7 +2516,7 @@ const allDevices = [
         "antutu": 467478
     },
     {
-        "Id": 123,
+        "Id": 132,
         "devicename": "Apple iPhone XS",
         "batterylife": 72,
         "price": 404,
@@ -2805,7 +2533,7 @@ const allDevices = [
         "antutu": 467478
     },
     {
-        "Id": 124,
+        "Id": 133,
         "devicename": "Apple iPhone XR",
         "batterylife": 78,
         "price": 375,
@@ -2820,23 +2548,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 467478
-    },
-    {
-        "Id": 208,
-        "devicename": "Samsung Galaxy M30",
-        "batterylife": 0,
-        "price": 0,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m30-.jpg",
-        "screensize": 6.4,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_m30-9505.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 107452
     },
     {
         "Id": 210,
@@ -2856,10 +2567,10 @@ const allDevices = [
         "antutu": 46000
     },
     {
-        "Id": 125,
+        "Id": 134,
         "devicename": "Samsung Galaxy A80",
-        "batterylife": 0,
-        "price": 0,
+        "batterylife": 90,
+        "price": 499,
         "BasemarkX": 0,
         "year": 2019,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a80-.jpg",
@@ -2871,23 +2582,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 250658
-    },
-    {
-        "Id": 213,
-        "devicename": "Samsung Galaxy A60",
-        "batterylife": 0,
-        "price": 0,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a60-.jpg",
-        "screensize": 6.3,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_a60-9616.php",
-        "nfc": true,
-        "headphonejack": false,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 175000
     },
     {
         "Id": 215,
@@ -2907,23 +2601,6 @@ const allDevices = [
         "antutu": 156251
     },
     {
-        "Id": 217,
-        "devicename": "Samsung Galaxy A20e",
-        "batterylife": 0,
-        "price": 0,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a20e.jpg",
-        "screensize": 5.8,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_a20e-9661.php",
-        "nfc": true,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 88710
-    },
-    {
         "Id": 219,
         "devicename": "Samsung Galaxy A10",
         "batterylife": 0,
@@ -2939,23 +2616,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 105713
-    },
-    {
-        "Id": 221,
-        "devicename": "Samsung Galaxy A6s",
-        "batterylife": 0,
-        "price": 244,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a6s-.jpg",
-        "screensize": 6.0,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_a6s-9352.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 136370
     },
     {
         "Id": 223,
@@ -2975,7 +2635,7 @@ const allDevices = [
         "antutu": 38580
     },
     {
-        "Id": 126,
+        "Id": 135,
         "devicename": "Samsung Galaxy Note9",
         "batterylife": 0,
         "price": 0,
@@ -2990,23 +2650,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 0
-    },
-    {
-        "Id": 226,
-        "devicename": "Samsung Galaxy J4 Core",
-        "batterylife": 0,
-        "price": 122,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j4-core-sm-g410g.jpg",
-        "screensize": 6.0,
-        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_j4_core-9397.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 32000
     },
     {
         "Id": 228,
@@ -3026,7 +2669,7 @@ const allDevices = [
         "antutu": 37000
     },
     {
-        "Id": 230,
+        "Id": 136,
         "devicename": "Samsung Galaxy J7 (2018)",
         "batterylife": 0,
         "price": 163,
@@ -3043,7 +2686,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 232,
+        "Id": 137,
         "devicename": "Samsung Galaxy A8 Star (A9 Star)",
         "batterylife": 0,
         "price": 285,
@@ -3060,7 +2703,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 127,
+        "Id": 138,
         "devicename": "Samsung Galaxy S Light Luxury",
         "batterylife": 0,
         "price": 326,
@@ -3077,7 +2720,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 235,
+        "Id": 139,
         "devicename": "Samsung Galaxy J6",
         "batterylife": 0,
         "price": 0,
@@ -3094,7 +2737,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 128,
+        "Id": 140,
         "devicename": "Samsung Galaxy J4",
         "batterylife": 0,
         "price": 114,
@@ -3111,7 +2754,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 129,
+        "Id": 141,
         "devicename": "Samsung Galaxy A6+ (2018)",
         "batterylife": 0,
         "price": 0,
@@ -3128,7 +2771,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 130,
+        "Id": 142,
         "devicename": "Samsung Galaxy A6 (2018)",
         "batterylife": 0,
         "price": 0,
@@ -3145,7 +2788,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 131,
+        "Id": 143,
         "devicename": "Samsung Galaxy J7 Duo",
         "batterylife": 0,
         "price": 195,
@@ -3162,10 +2805,10 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 241,
+        "Id": 144,
         "devicename": "Samsung Galaxy S9+",
-        "batterylife": 0,
-        "price": 0,
+        "batterylife": 86,
+        "price": 262,
         "BasemarkX": 0,
         "year": 2018,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-plus-blue.jpg",
@@ -3179,10 +2822,10 @@ const allDevices = [
         "antutu": 312546
     },
     {
-        "Id": 132,
+        "Id": 145,
         "devicename": "Samsung Galaxy S9",
-        "batterylife": 0,
-        "price": 0,
+        "batterylife": 78,
+        "price": 229,
         "BasemarkX": 0,
         "year": 2018,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-.jpg",
@@ -3196,7 +2839,7 @@ const allDevices = [
         "antutu": 315465
     },
     {
-        "Id": 244,
+        "Id": 146,
         "devicename": "Samsung Galaxy A8+ (2018)",
         "batterylife": 0,
         "price": 244,
@@ -3213,7 +2856,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 246,
+        "Id": 147,
         "devicename": "Xiaomi Mi A2 (Mi 6X)",
         "batterylife": 0,
         "price": 0,
@@ -3230,7 +2873,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 133,
+        "Id": 148,
         "devicename": "Xiaomi Mi A2 Lite (Redmi 6 Pro)",
         "batterylife": 0,
         "price": 309,
@@ -3245,23 +2888,6 @@ const allDevices = [
         "ir": true,
         "dxomarkScore": 0,
         "antutu": 0
-    },
-    {
-        "Id": 249,
-        "devicename": "Xiaomi Redmi 6",
-        "batterylife": 0,
-        "price": 0,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-6.jpg",
-        "screensize": 5.45,
-        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_6-9237.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 75399
     },
     {
         "Id": 251,
@@ -3281,7 +2907,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 134,
+        "Id": 149,
         "devicename": "Xiaomi Mi 8",
         "batterylife": 0,
         "price": 0,
@@ -3298,7 +2924,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 135,
+        "Id": 150,
         "devicename": "Xiaomi Mi 8 SE",
         "batterylife": 0,
         "price": 212,
@@ -3315,7 +2941,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 136,
+        "Id": 151,
         "devicename": "Xiaomi Redmi S2 (Redmi Y2)",
         "batterylife": 0,
         "price": 0,
@@ -3332,9 +2958,9 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 137,
+        "Id": 152,
         "devicename": "Xiaomi Mi Mix 2S",
-        "batterylife": 0,
+        "batterylife": 59,
         "price": 220,
         "BasemarkX": 0,
         "year": 2018,
@@ -3349,7 +2975,7 @@ const allDevices = [
         "antutu": 341743
     },
     {
-        "Id": 138,
+        "Id": 153,
         "devicename": "Xiaomi Redmi Note 5 AI Dual Camera",
         "batterylife": 0,
         "price": 146,
@@ -3366,7 +2992,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 258,
+        "Id": 154,
         "devicename": "Xiaomi Black Shark",
         "batterylife": 0,
         "price": 326,
@@ -3383,7 +3009,7 @@ const allDevices = [
         "antutu": 294520
     },
     {
-        "Id": 139,
+        "Id": 155,
         "devicename": "Xiaomi Redmi 5 Plus (Redmi Note 5)",
         "batterylife": 0,
         "price": 0,
@@ -3400,9 +3026,9 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 261,
+        "Id": 156,
         "devicename": "Oppo Reno3 Pro 5G",
-        "batterylife": 0,
+        "batterylife": 100,
         "price": 0,
         "BasemarkX": 0,
         "year": 2019,
@@ -3417,7 +3043,7 @@ const allDevices = [
         "antutu": 320822
     },
     {
-        "Id": 140,
+        "Id": 157,
         "devicename": "Oppo Reno3 Youth",
         "batterylife": 0,
         "price": 326,
@@ -3434,7 +3060,7 @@ const allDevices = [
         "antutu": 213000
     },
     {
-        "Id": 141,
+        "Id": 158,
         "devicename": "Oppo Reno3 5G",
         "batterylife": 0,
         "price": 358,
@@ -3449,23 +3075,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 213000
-    },
-    {
-        "Id": 265,
-        "devicename": "Oppo A8",
-        "batterylife": 0,
-        "price": 122,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a8-.jpg",
-        "screensize": 6.5,
-        "phoneURL": "https://www.gsmarena.com/oppo_a8-10002.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 86352
     },
     {
         "Id": 267,
@@ -3485,9 +3094,9 @@ const allDevices = [
         "antutu": 279521
     },
     {
-        "Id": 142,
+        "Id": 159,
         "devicename": "Oppo Reno Ace",
-        "batterylife": 0,
+        "batterylife": 99,
         "price": 309,
         "BasemarkX": 0,
         "year": 2019,
@@ -3500,23 +3109,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 465000
-    },
-    {
-        "Id": 270,
-        "devicename": "Oppo A5 (2020)",
-        "batterylife": 0,
-        "price": 0,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-2020.jpg",
-        "screensize": 6.5,
-        "phoneURL": "https://www.gsmarena.com/oppo_a5_(2020)-9883.php",
-        "nfc": true,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 84916
     },
     {
         "Id": 272,
@@ -3536,7 +3128,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 143,
+        "Id": 160,
         "devicename": "Oppo Reno2 F",
         "batterylife": 0,
         "price": 0,
@@ -3553,7 +3145,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 144,
+        "Id": 161,
         "devicename": "Oppo Reno2 Z",
         "batterylife": 0,
         "price": 0,
@@ -3570,7 +3162,7 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 145,
+        "Id": 162,
         "devicename": "Oppo Reno Z",
         "batterylife": 0,
         "price": 269,
@@ -3587,7 +3179,7 @@ const allDevices = [
         "antutu": 213989
     },
     {
-        "Id": 146,
+        "Id": 163,
         "devicename": "Oppo K3",
         "batterylife": 0,
         "price": 171,
@@ -3602,23 +3194,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 202703
-    },
-    {
-        "Id": 278,
-        "devicename": "Oppo A9",
-        "batterylife": 0,
-        "price": 220,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a9.jpg",
-        "screensize": 6.53,
-        "phoneURL": "https://www.gsmarena.com/oppo_a9-9677.php",
-        "nfc": true,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 175916
     },
     {
         "Id": 280,
@@ -3638,23 +3213,6 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 282,
-        "devicename": "Oppo A1k",
-        "batterylife": 0,
-        "price": 81,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1k.jpg",
-        "screensize": 6.1,
-        "phoneURL": "https://www.gsmarena.com/oppo_a1k-9673.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 75450
-    },
-    {
         "Id": 284,
         "devicename": "Oppo A5s (AX5s)",
         "batterylife": 0,
@@ -3670,23 +3228,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 86352
-    },
-    {
-        "Id": 286,
-        "devicename": "Oppo F11 Pro",
-        "batterylife": 0,
-        "price": 0,
-        "BasemarkX": 0,
-        "year": 2019,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-pro-.jpg",
-        "screensize": 6.53,
-        "phoneURL": "https://www.gsmarena.com/oppo_f11_pro-9566.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 192454
     },
     {
         "Id": 288,
@@ -3706,7 +3247,7 @@ const allDevices = [
         "antutu": 143000
     },
     {
-        "Id": 147,
+        "Id": 164,
         "devicename": "Oppo RX17 Neo",
         "batterylife": 0,
         "price": 269,
@@ -3723,26 +3264,9 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 291,
-        "devicename": "Oppo A7x",
-        "batterylife": 0,
-        "price": 220,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a7x-.jpg",
-        "screensize": 6.3,
-        "phoneURL": "https://www.gsmarena.com/oppo_a7x-9317.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 140000
-    },
-    {
         "Id": 148,
         "devicename": "Oppo RX17 Pro",
-        "batterylife": 0,
+        "batterylife": 80,
         "price": 489,
         "BasemarkX": 0,
         "year": 2018,
@@ -3757,7 +3281,7 @@ const allDevices = [
         "antutu": 212736
     },
     {
-        "Id": 294,
+        "Id": 165,
         "devicename": "Oppo F9 (F9 Pro)",
         "batterylife": 0,
         "price": 0,
@@ -3774,26 +3298,9 @@ const allDevices = [
         "antutu": 0
     },
     {
-        "Id": 296,
-        "devicename": "Oppo A5 (AX5)",
-        "batterylife": 0,
-        "price": 187,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
-        "screensize": 6.2,
-        "phoneURL": "https://www.gsmarena.com/oppo_a5_(ax5)-9259.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 84916
-    },
-    {
         "Id": 149,
         "devicename": "Oppo Find X Lamborghini",
-        "batterylife": 0,
+        "batterylife": 82,
         "price": 1101,
         "BasemarkX": 0,
         "year": 2018,
@@ -3808,10 +3315,10 @@ const allDevices = [
         "antutu": 346393
     },
     {
-        "Id": 150,
+        "Id": 166,
         "devicename": "Oppo Find X",
-        "batterylife": 0,
-        "price": 0,
+        "batterylife": 90,
+        "price": 561,
         "BasemarkX": 0,
         "year": 2018,
         "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x.jpg",
@@ -3823,57 +3330,6 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 346393
-    },
-    {
-        "Id": 299,
-        "devicename": "Oppo F7 Youth",
-        "batterylife": 0,
-        "price": 203,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f7-yough-5.jpg",
-        "screensize": 6.0,
-        "phoneURL": "https://www.gsmarena.com/oppo_f7_youth-9208.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 140161
-    },
-    {
-        "Id": 300,
-        "devicename": "Oppo A3",
-        "batterylife": 0,
-        "price": 269,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3.jpg",
-        "screensize": 6.2,
-        "phoneURL": "https://www.gsmarena.com/oppo_a3-9168.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 140161
-    },
-    {
-        "Id": 301,
-        "devicename": "Oppo F7",
-        "batterylife": 0,
-        "price": 220,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f7-.jpg",
-        "screensize": 6.23,
-        "phoneURL": "https://www.gsmarena.com/oppo_f7-9121.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 140161
     },
     {
         "Id": 302,
@@ -3893,57 +3349,6 @@ const allDevices = [
         "antutu": 146527
     },
     {
-        "Id": 303,
-        "devicename": "Oppo R15",
-        "batterylife": 0,
-        "price": 375,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r15-.jpg",
-        "screensize": 6.28,
-        "phoneURL": "https://www.gsmarena.com/oppo_r15-9108.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 140161
-    },
-    {
-        "Id": 304,
-        "devicename": "Oppo A1",
-        "batterylife": 0,
-        "price": 122,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1.jpg",
-        "screensize": 5.7,
-        "phoneURL": "https://www.gsmarena.com/oppo_a1-9134.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 69000
-    },
-    {
-        "Id": 305,
-        "devicename": "Oppo A71 (2018)",
-        "batterylife": 0,
-        "price": 106,
-        "BasemarkX": 0,
-        "year": 2018,
-        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a71-2018.jpg",
-        "screensize": 5.2,
-        "phoneURL": "https://www.gsmarena.com/oppo_a71_(2018)-9051.php",
-        "nfc": false,
-        "headphonejack": true,
-        "dualsim": true,
-        "ir": false,
-        "dxomarkScore": 0,
-        "antutu": 62155
-    },
-    {
         "Id": 306,
         "devicename": "Oppo A83",
         "batterylife": 0,
@@ -3959,6 +3364,856 @@ const allDevices = [
         "ir": false,
         "dxomarkScore": 0,
         "antutu": 80668
+    },
+    {
+        "Id": 167,
+        "devicename": "Samsung Galaxy M62",
+        "batterylife": 0,
+        "price": 0,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m62.jpg",
+        "screensize": 6.7,
+        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_m62-10749.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 438005
+    },
+    {
+        "Id": 168,
+        "devicename": "Samsung Galaxy F62",
+        "batterylife": 0,
+        "price": 220,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f62.jpg",
+        "screensize": 6.7,
+        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_f62-10740.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 452065
+    },
+    {
+        "Id": 169,
+        "devicename": "Samsung Galaxy S21 Ultra 5G",
+        "batterylife": 114,
+        "price": 999,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg",
+        "screensize": 6.8,
+        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_s21_ultra_5g-10596.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 647991
+    },
+    {
+        "Id": 170,
+        "devicename": "Samsung Galaxy S21+ 5G",
+        "batterylife": 114,
+        "price": 799,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-plus-5g-.jpg",
+        "screensize": 6.7,
+        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_s21+_5g-10625.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 647991
+    },
+    {
+        "Id": 171,
+        "devicename": "Samsung Galaxy S21 5G",
+        "batterylife": 93,
+        "price": 652,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-5g-r.jpg",
+        "screensize": 6.2,
+        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_s21_5g-10626.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 647991
+    },
+    {
+        "Id": 172,
+        "devicename": "Samsung Galaxy A32 5G",
+        "batterylife": 0,
+        "price": 306,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a32-5g.jpg",
+        "screensize": 6.5,
+        "phoneURL": "https://www.gsmarena.com/samsung_galaxy_a32_5g-10648.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 290582
+    },
+    {
+        "Id": 173,
+        "devicename": "Xiaomi Redmi K40 Pro+",
+        "batterylife": 0,
+        "price": 769,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k40-pro-plus.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_k40_pro+-10752.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 744877
+    },
+    {
+        "Id": 174,
+        "devicename": "Xiaomi Redmi K40 Pro",
+        "batterylife": 0,
+        "price": 579,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k40-pro.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_k40_pro-10727.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 744877
+    },
+    {
+        "Id": 175,
+        "devicename": "Xiaomi Redmi K40",
+        "batterylife": 0,
+        "price": 469,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k40.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_k40-10728.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 691359
+    },
+    {
+        "Id": 176,
+        "devicename": "Xiaomi Redmi Note 9T",
+        "batterylife": 118,
+        "price": 212,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9t-5g.jpg",
+        "screensize": 6.53,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_9t-10661.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 343150
+    },
+    {
+        "Id": 177,
+        "devicename": "Xiaomi Mi 10i 5G",
+        "batterylife": 0,
+        "price": 204,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10i-5g.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_10i_5g-10615.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 351232
+    },
+    {
+        "Id": 178,
+        "devicename": "Xiaomi Mi 11",
+        "batterylife": 89,
+        "price": 699,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi11.jpg",
+        "screensize": 6.81,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_11-10656.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 710889
+    },
+    {
+        "Id": 179,
+        "devicename": "Xiaomi Mi 10 Lite 5G",
+        "batterylife": 103,
+        "price": 324,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi10-lite-5g.jpg",
+        "screensize": 6.57,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_10_lite_5g-10159.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 330587
+    },
+    {
+        "Id": 180,
+        "devicename": "Xiaomi Redmi K30 Pro Zoom",
+        "batterylife": 0,
+        "price": 408,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k30-pro-zoom.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_k30_pro_zoom-10150.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 595261
+    },
+    {
+        "Id": 181,
+        "devicename": "Xiaomi Redmi K30 Pro",
+        "batterylife": 0,
+        "price": 519,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k30-pro.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_k30_pro-10140.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 588608
+    },
+    {
+        "Id": 182,
+        "devicename": "Xiaomi Redmi Note 9S",
+        "batterylife": 127,
+        "price": 179,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9-pro.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_9s-10147.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 274596
+    },
+    {
+        "Id": 183,
+        "devicename": "Xiaomi Redmi Note 9 Pro Max",
+        "batterylife": 0,
+        "price": 0,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9-pro-max.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_9_pro_max-10126.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 274596
+    },
+    {
+        "Id": 184,
+        "devicename": "Xiaomi Redmi Note 9 Pro (India)",
+        "batterylife": 127,
+        "price": 0,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9-pro.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_9_pro_(india)-10120.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 274596
+    },
+    {
+        "Id": 185,
+        "devicename": "Xiaomi Black Shark 3",
+        "batterylife": 0,
+        "price": 399,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-black-shark-3.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_black_shark_3-10110.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 294520
+    },
+    {
+        "Id": 186,
+        "devicename": "Xiaomi Mi 10 Pro 5G",
+        "batterylife": 101,
+        "price": 949,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10-pro-5g.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_10_pro_5g-10055.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 600989
+    },
+    {
+        "Id": 187,
+        "devicename": "Xiaomi Mi 10 5G",
+        "batterylife": 109,
+        "price": 659,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10-5g.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_10_5g-10082.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 579114
+    },
+    {
+        "Id": 188,
+        "devicename": "Xiaomi Redmi K30",
+        "batterylife": 101,
+        "price": 171,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k30.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_k30-9991.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 279521
+    },
+    {
+        "Id": 189,
+        "devicename": "Xiaomi Redmi K30 5G",
+        "batterylife": 0,
+        "price": 319,
+        "BasemarkX": 0,
+        "year": 2020,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k30-5g.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_k30_5g-9979.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 325370
+    },
+    {
+        "Id": 190,
+        "devicename": "Xiaomi Mi Note 10 Pro",
+        "batterylife": 0,
+        "price": 392,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-note10-.jpg",
+        "screensize": 6.47,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_note_10_pro-9945.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 268759
+    },
+    {
+        "Id": 191,
+        "devicename": "Xiaomi Mi Note 10",
+        "batterylife": 95,
+        "price": 310,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-note10-.jpg",
+        "screensize": 6.47,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_note_10-9936.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 264493
+    },
+    {
+        "Id": 192,
+        "devicename": "Xiaomi Mi CC9 Pro",
+        "batterylife": 0,
+        "price": 327,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-cc9-pro-.jpg",
+        "screensize": 6.47,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_cc9_pro-9935.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 261305
+    },
+    {
+        "Id": 193,
+        "devicename": "Xiaomi Mi 9 Pro",
+        "batterylife": 0,
+        "price": 408,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-9-pro.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_9_pro-9891.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 440736
+    },
+    {
+        "Id": 194,
+        "devicename": "Xiaomi Mi 9 Lite",
+        "batterylife": 106,
+        "price": 317,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-cc9-.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_9_lite-9862.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 217225
+    },
+    {
+        "Id": 195,
+        "devicename": "Xiaomi Redmi Note 8 Pro",
+        "batterylife": 114,
+        "price": 179,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-8-pro-.jpg",
+        "screensize": 6.53,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_8_pro-9812.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 292510
+    },
+    {
+        "Id": 196,
+        "devicename": "Xiaomi Black Shark 2 Pro",
+        "batterylife": 0,
+        "price": 449,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-black-shark2-pro-.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_black_shark_2_pro-9779.php",
+        "nfc": false,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 464953
+    },
+    {
+        "Id": 197,
+        "devicename": "Xiaomi Mi 9T Pro",
+        "batterylife": 103,
+        "price": 522,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-9t.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_9t_pro-9791.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 438519
+    },
+    {
+        "Id": 198,
+        "devicename": "Xiaomi Mi 9T",
+        "batterylife": 100,
+        "price": 376,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-9t.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_9t-9738.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 265231
+    },
+    {
+        "Id": 199,
+        "devicename": "Xiaomi Redmi K20",
+        "batterylife": 0,
+        "price": 212,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k20pro-.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_k20-9720.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 261545
+    },
+    {
+        "Id": 200,
+        "devicename": "Xiaomi Redmi K20 Pro",
+        "batterylife": 103,
+        "price": 0,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k20pro-.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_k20_pro-9708.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 261545
+    },
+    {
+        "Id": 201,
+        "devicename": "Xiaomi Black Shark 2",
+        "batterylife": 93,
+        "price": 327,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-black-shark-2.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_black_shark_2-9639.php",
+        "nfc": false,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 294520
+    },
+    {
+        "Id": 202,
+        "devicename": "Xiaomi Redmi Note 7 Pro",
+        "batterylife": 0,
+        "price": 0,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-7-pro.jpg",
+        "screensize": 6.3,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_7_pro-9521.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 210138
+    },
+    {
+        "Id": 203,
+        "devicename": "Xiaomi Mi Mix 3 5G",
+        "batterylife": 0,
+        "price": 335,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-mix3.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_mix_3_5g-9602.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": false,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 448172
+    },
+    {
+        "Id": 204,
+        "devicename": "Xiaomi Mi 9 Explorer",
+        "batterylife": 0,
+        "price": 433,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-9-explore.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_9_explorer-9584.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 440736
+    },
+    {
+        "Id": 205,
+        "devicename": "Xiaomi Mi 9 SE",
+        "batterylife": 73,
+        "price": 376,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-9-se.jpg",
+        "screensize": 5.97,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_9_se-9583.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 226183
+    },
+    {
+        "Id": 206,
+        "devicename": "Xiaomi Mi 9",
+        "batterylife": 95,
+        "price": 482,
+        "BasemarkX": 0,
+        "year": 2019,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-9-.jpg",
+        "screensize": 6.39,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_mi_9-9507.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 440736
+    },
+    {
+        "Id": 207,
+        "devicename": "Oppo Reno5 K",
+        "batterylife": 0,
+        "price": 302,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-5k.jpg",
+        "screensize": 6.43,
+        "phoneURL": "https://www.gsmarena.com/oppo_reno5_k-10750.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 275000
+    },
+    {
+        "Id": 208,
+        "devicename": "Oppo A55 5G",
+        "batterylife": 0,
+        "price": 163,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55-5g.jpg",
+        "screensize": 6.5,
+        "phoneURL": "https://www.gsmarena.com/oppo_a55_5g-10703.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 250000
+    },
+    {
+        "Id": 209,
+        "devicename": "Oppo Reno5 4G",
+        "batterylife": 0,
+        "price": 253,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-5-4g.jpg",
+        "screensize": 6.43,
+        "phoneURL": "https://www.gsmarena.com/oppo_reno5_4g-10654.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 275000
+    },
+    {
+        "Id": 210,
+        "devicename": "Oppo Reno5 Pro+ 5G",
+        "batterylife": 0,
+        "price": 408,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-pro-plus-5g.jpg",
+        "screensize": 6.55,
+        "phoneURL": "https://www.gsmarena.com/oppo_reno5_pro+_5g-10632.php",
+        "nfc": true,
+        "headphonejack": false,
+        "dualsim": true,
+        "ir": false,
+        "dxomarkScore": 0,
+        "antutu": 689036
+    },
+    {
+        "Id": 242,
+        "devicename": "Xiaomi Redmi Note 10 Pro",
+        "batterylife": 0,
+        "price": 192,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note10-pro.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_10_pro-10662.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 291180
+    },
+    {
+        "Id": 243,
+        "devicename": "Xiaomi Redmi Note 10 5G",
+        "batterylife": 0,
+        "price": 142,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note10-5g.jpg",
+        "screensize": 6.5,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_10_5g-10768.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 250000
+    },
+    {
+        "Id": 244,
+        "devicename": "Xiaomi Redmi Note 10S",
+        "batterylife": 0,
+        "price": 159,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note10s.jpg",
+        "screensize": 6.43,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_10s-10769.php",
+        "nfc": true,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 302500
+    },
+    {
+        "Id": 245,
+        "devicename": "Xiaomi Redmi Note 10",
+        "batterylife": 0,
+        "price": 0,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note10--.jpg",
+        "screensize": 6.43,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_10-10247.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 225000
+    },
+    {
+        "Id": 246,
+        "devicename": "Xiaomi Redmi Note 10 Pro Max",
+        "batterylife": 0,
+        "price": 184,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note10-pro-india.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_10_pro_max-10770.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 291180
+    },
+    {
+        "Id": 247,
+        "devicename": "Xiaomi Redmi Note 10 Pro (India)",
+        "batterylife": 0,
+        "price": 150,
+        "BasemarkX": 0,
+        "year": 2021,
+        "ImageURL": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note10-pro-india.jpg",
+        "screensize": 6.67,
+        "phoneURL": "https://www.gsmarena.com/xiaomi_redmi_note_10_pro_(india)-10771.php",
+        "nfc": false,
+        "headphonejack": true,
+        "dualsim": true,
+        "ir": true,
+        "dxomarkScore": 0,
+        "antutu": 291180
     }
 ]
 
