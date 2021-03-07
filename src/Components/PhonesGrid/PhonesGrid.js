@@ -11,6 +11,7 @@ const PhonesDisplay = props => {
     const [antutu, setAntutu] = useState(0);
     const [bl, setBl] = useState(0);
     const [ir, setIr] = useState(false);
+    const [considerPrice, setConsiderPrice] = useState(false);
     const [nfc, setNfc] = useState(false);
     const [dualSim, setDualSim] = useState(false);
     const [hj, setHj] = useState(false);
@@ -18,7 +19,7 @@ const PhonesDisplay = props => {
 
     const settings3 = {
         start: scores.minPerformance,
-        min: 0,
+        min: scores.minPerformance,
         max: scores.topPerformance,
         step: 10000,
         onChange: (value) => {
@@ -28,7 +29,7 @@ const PhonesDisplay = props => {
 
     const settings2 = {
         start: scores.minBatteryLife,
-        min: 0,
+        min: scores.minBatteryLife,
         max: scores.topBatteryLife,
         step: 1,
         onChange: (value) => {
@@ -36,15 +37,22 @@ const PhonesDisplay = props => {
         }
     }
 
-    const calcScoreForDevice = (antutu, batterylife) => {
+
+
+    const calcScoreForDevice = (antutu, batterylife, price) => {
+        let divider = 1;
+        if (considerPrice) {
+            divider = price
+        }
         const benchScore = ((antutu - edgeScores.minPerformance) / (edgeScores.topPerformance - edgeScores.minPerformance));//preformance score
         const batteryScore = ((batterylife - edgeScores.minBatteryLife) / (edgeScores.topBatteryLife - edgeScores.minBatteryLife));//battery life score
-        const totalScore = (benchScore + batteryScore) / 2 * 100;//Total score without considiration to price
+        const totalScore = (((benchScore + batteryScore) / 2) * 100) / divider;//Total score without considiration to price
         return totalScore;
     }
 
     const filteredDevices = (input_devices) => {
         return input_devices
+            .filter(device => device.antutu > 0 && device.batterylife > 0 && device.price > 1)
             .filter(phone => phone.antutu >= antutu)
             .filter(phone => phone.batterylife >= bl)
             .filter(phone => (phone.nfc && nfc) || !nfc)
@@ -53,10 +61,25 @@ const PhonesDisplay = props => {
             .filter(phone => (phone.ir && ir) || !ir)
     }
 
+    const maxScore = () => {
+        const device = filteredDevices(allDevices).reduce(function (a, b) {
+            const score = Math.max(calcScoreForDevice(a.antutu, a.batterylife, a.price), calcScoreForDevice(b.antutu, b.batterylife, b.price));
+            return calcScoreForDevice(a.antutu, a.batterylife, a.price) === score ? a : b;
+        })
+        console.log(device)
+        return calcScoreForDevice(device.antutu, device.batterylife, device.price);
+    }
+
+    const MAX_SCORE = maxScore();
+
+    const calcPoints = (score) => {
+        return score / MAX_SCORE * 100;
+    }
+    console.log(MAX_SCORE)
+
     const sortedDevices = (input_devices) => {
-        return filteredDevices(input_devices).sort((b, a) => calcScoreForDevice(a.antutu, a.batterylife) - calcScoreForDevice(b.antutu, b.batterylife))
-            .filter(device => device.antutu > 0 && device.batterylife > 0)
-            .filter(device => calcScoreForDevice(device.antutu, device.batterylife) > 0)
+        return filteredDevices(input_devices).sort((b, a) => calcPoints(calcScoreForDevice(a.antutu, a.batterylife, a.price)) - calcPoints(calcScoreForDevice(b.antutu, b.batterylife, b.price)))
+            .filter(device => calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price)) > 0)
     }
 
     useEffect(() => {
@@ -67,7 +90,7 @@ const PhonesDisplay = props => {
 
     const phones = sortedDevices(devices).map((device, index) => {
         return (
-            <PhoneCard style={{display: 'inline-block'}} key={index} device={device} score={calcScoreForDevice(device.antutu, device.batterylife)} />
+            <PhoneCard style={{ display: 'inline-block' }} key={index} device={device} score={calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price))} />
         )
     })
 
@@ -100,6 +123,10 @@ const PhonesDisplay = props => {
                             <h3 style={{ marginRight: '1em' }}>Headphone Jack (3.5mm port)</h3>
                             <Checkbox onChange={(e, data) => setHj(data.checked)} />
                         </div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <h3 style={{ marginRight: '1em' }}>Consider Price</h3>
+                            <Checkbox onChange={(e, data) => setConsiderPrice(data.checked)} />
+                        </div>
 
 
                     </Segment>
@@ -109,9 +136,9 @@ const PhonesDisplay = props => {
             <div className="ui grid">
                 <div className="three wide column"></div>
                 <div className="twelve wide column">
-                <Card.Group>
-                    {phones}
-                </Card.Group>
+                    <Card.Group>
+                        {phones}
+                    </Card.Group>
                 </div>
                 <div className="three wide column"></div>
             </div>
