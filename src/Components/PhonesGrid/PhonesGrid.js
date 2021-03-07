@@ -66,7 +66,6 @@ const PhonesDisplay = props => {
             const score = Math.max(calcScoreForDevice(a.antutu, a.batterylife, a.price), calcScoreForDevice(b.antutu, b.batterylife, b.price));
             return calcScoreForDevice(a.antutu, a.batterylife, a.price) === score ? a : b;
         })
-        console.log(device)
         return calcScoreForDevice(device.antutu, device.batterylife, device.price);
     }
 
@@ -75,8 +74,7 @@ const PhonesDisplay = props => {
     const calcPoints = (score) => {
         return score / MAX_SCORE * 100;
     }
-    console.log(MAX_SCORE)
-
+    
     const sortedDevices = (input_devices) => {
         return filteredDevices(input_devices).sort((b, a) => calcPoints(calcScoreForDevice(a.antutu, a.batterylife, a.price)) - calcPoints(calcScoreForDevice(b.antutu, b.batterylife, b.price)))
             .filter(device => calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price)) > 0)
