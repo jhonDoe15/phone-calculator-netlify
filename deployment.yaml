@@ -1,0 +1,38 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: phone-calculator
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: phone-calculator
+  template:
+    metadata:
+      labels:
+        app: phone-calculator
+    spec:
+      containers:
+        - name: phone-calculator
+          image: shavitdevops/final-image
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+      restartPolicy: Always
+  
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: phone-calculator
+spec:
+  type: NodePort
+  ports:
+    - port: 3000
+      targetPort: 3000
+      protocol: TCP
+      nodePort: 30000
+  selector:
+    app: phone-calculator

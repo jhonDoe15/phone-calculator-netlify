@@ -1,0 +1,10 @@
+node_modules
+.vscode
+.gitignore
+.dockerignore
+Dockerfile
+package-lock.json
+netlify.toml
+package-lock.json
+yarn.lock
+README.md
