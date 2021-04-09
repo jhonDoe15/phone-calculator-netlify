@@ -3,13 +3,13 @@ import PhoneCard from '../PhoneCard/PhoneCard'
 import allDevices from './devices'
 import scores from './scores'
 import { Slider } from 'react-semantic-ui-range'
-import 'semantic-ui-css/semantic.min.css';
+// import 'semantic-ui-css/semantic.min.css';
 import { Segment, Grid, Checkbox, Card } from 'semantic-ui-react';
 const PhonesDisplay = props => {
 
     const [devices, setDevices] = useState(allDevices);
-    const [antutu, setAntutu] = useState(0);
-    const [bl, setBl] = useState(0);
+    const [antutu, setAntutu] = useState(scores.minPerformance);
+    const [bl, setBl] = useState(scores.minBatteryLife);
     const [ir, setIr] = useState(false);
     const [considerPrice, setConsiderPrice] = useState(false);
     const [nfc, setNfc] = useState(false);
