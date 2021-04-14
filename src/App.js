@@ -1,5 +1,4 @@
 import React, { useState }  from 'react';
-import './App.css';
 import PhonesGrid from './Components/PhonesGrid/PhonesGrid'
 import { Menu } from 'semantic-ui-react'
 
