@@ -1,11 +1,16 @@
-import React, { Fragment, useEffect, useState } from 'react'
-import PhoneCard from '../PhoneCard/PhoneCard'
+import React, { Fragment, useEffect, useState, lazy, Suspense } from 'react'
+// import PhoneCard from '../PhoneCard/PhoneCard'
 import allDevices from './devices'
 import scores from './scores'
 import { Slider } from 'react-semantic-ui-range'
 // import 'semantic-ui-css/semantic.min.css';
 import { Segment, Grid, Checkbox, Card } from 'semantic-ui-react';
-const PhonesDisplay = props => {
+
+const PhoneCard = lazy(() => import('../PhoneCard/PhoneCard'));
+
+const renderLoader = () => <p>Loading</p>;
+
+const PhonesDisplay = () => {
 
     const [devices, setDevices] = useState(allDevices);
     const [antutu, setAntutu] = useState(scores.minPerformance);
@@ -74,7 +79,7 @@ const PhonesDisplay = props => {
     const calcPoints = (score) => {
         return score / MAX_SCORE * 100;
     }
-    
+
     const sortedDevices = (input_devices) => {
         return filteredDevices(input_devices).sort((b, a) => calcPoints(calcScoreForDevice(a.antutu, a.batterylife, a.price)) - calcPoints(calcScoreForDevice(b.antutu, b.batterylife, b.price)))
             .filter(device => calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price)) > 0)
@@ -88,7 +93,13 @@ const PhonesDisplay = props => {
 
     const phones = sortedDevices(devices).map((device, index) => {
         return (
-            <PhoneCard style={{ display: 'inline-block' }} key={index} device={device} score={calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price))} />
+            <Suspense fallback={renderLoader()}>
+                <PhoneCard
+                    style={{ display: 'inline-block' }}
+                    key={index}
+                    device={device}
+                    score={calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price))} />
+            </Suspense>
         )
     })
 
