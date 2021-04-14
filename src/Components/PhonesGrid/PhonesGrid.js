@@ -93,13 +93,12 @@ const PhonesDisplay = () => {
 
     const phones = sortedDevices(devices).map((device, index) => {
         return (
-            <Suspense fallback={renderLoader()}>
-                <PhoneCard
-                    style={{ display: 'inline-block' }}
-                    key={index}
-                    device={device}
-                    score={calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price))} />
-            </Suspense>
+            <PhoneCard
+                style={{ display: 'inline-block' }}
+                key={index}
+                device={device}
+                score={calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price))}
+            />
         )
     })
 
@@ -145,9 +144,11 @@ const PhonesDisplay = () => {
             <div className="ui grid">
                 <div className="three wide column"></div>
                 <div className="twelve wide column">
-                    <Card.Group>
-                        {phones}
-                    </Card.Group>
+                    <Suspense fallback={renderLoader()}>
+                        <Card.Group>
+                            {phones}
+                        </Card.Group>
+                    </Suspense>
                 </div>
                 <div className="three wide column"></div>
             </div>
