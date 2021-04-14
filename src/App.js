@@ -1,8 +1,6 @@
 import React, { useState }  from 'react';
-// import PhonesGrid from './Components/PhonesGrid/PhonesGrid'
+import PhonesGrid from './Components/PhonesGrid/PhonesGrid'
 import { Menu } from 'semantic-ui-react'
-import loadable from '@loadable/component'
-const PhonesGrid = loadable(() => import('./Components/PhonesGrid/PhonesGrid'))
 
 const App = () => {
   const [navbarState, setNavbarState] = useState({ activeItem: 'home' })
