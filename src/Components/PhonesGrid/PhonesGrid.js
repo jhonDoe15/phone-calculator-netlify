@@ -1,6 +1,5 @@
 import React, { Fragment, useEffect, useState, lazy, Suspense } from 'react'
-// import PhoneCard from '../PhoneCard/PhoneCard'
-import allDevices from './devices'
+import allDevices from './allDevices'
 import scores from './scores'
 import { Slider } from 'react-semantic-ui-range'
 // import 'semantic-ui-css/semantic.min.css';
@@ -13,7 +12,7 @@ const renderLoader = () => <p>Loading</p>;
 const PhonesDisplay = () => {
 
     const [devices, setDevices] = useState(allDevices);
-    const [antutu, setAntutu] = useState(scores.minPerformance);
+    const [sliderAntutu, setSliderAntutu] = useState(scores.minPerformance);
     const [bl, setBl] = useState(scores.minBatteryLife);
     const [ir, setIr] = useState(false);
     const [considerPrice, setConsiderPrice] = useState(false);
@@ -28,7 +27,7 @@ const PhonesDisplay = () => {
         max: scores.topPerformance,
         step: 10000,
         onChange: (value) => {
-            setAntutu(value)
+            setSliderAntutu(value)
         }
     }
 
@@ -58,7 +57,7 @@ const PhonesDisplay = () => {
     const filteredDevices = (input_devices) => {
         return input_devices
             .filter(device => device.antutu > 0 && device.batterylife > 0 && device.price > 1)
-            .filter(phone => phone.antutu >= antutu)
+            .filter(phone => phone.antutu >= sliderAntutu)
             .filter(phone => phone.batterylife >= bl)
             .filter(phone => (phone.nfc && nfc) || !nfc)
             .filter(phone => (phone.headphonejack && hj) || !hj)
@@ -108,8 +107,8 @@ const PhonesDisplay = () => {
                 <Grid.Column width={3}></Grid.Column>
                 <Grid.Column width={10}>
                     <Segment inverted >
-                        antutu: {antutu} points
-                            <Slider color="red" inverted value={antutu} settings={settings3} />
+                        antutu: {sliderAntutu} points
+                            <Slider color="red" inverted value={sliderAntutu} settings={settings3} />
 
                         <br />
                             battery life: {bl} h
