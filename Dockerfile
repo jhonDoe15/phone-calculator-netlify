@@ -15,6 +15,8 @@ RUN npm run build
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx # 
 FROM nginx:1.21.3-alpine
 
+RUN apk update && apk upgrade
+
 COPY --from=build-stage /app/build/ /usr/share/nginx/html
 
 COPY --from=build-stage /app/nginx.conf /etc/nginx/templates/nginx.conf.template 
