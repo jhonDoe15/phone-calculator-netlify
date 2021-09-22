@@ -13,7 +13,7 @@ RUN npm run build
 
 
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx # 
-FROM nginx:1.21.0-alpine
+FROM nginx:1.21.3-alpine
 
 RUN apk upgrade --no-cache "libjpeg-turbo" 
 
