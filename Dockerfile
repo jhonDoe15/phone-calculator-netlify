@@ -16,7 +16,7 @@ RUN npm run build
 FROM nginx:1.21.3-alpine
 
 COPY --from=build-stage /app/build/ /usr/share/nginx/html
-# Copy the default nginx.conf provided by tiangolo/node-frontend
+
 COPY --from=build-stage /app/nginx.conf /etc/nginx/templates/nginx.conf.template 
 
 EXPOSE 3000
