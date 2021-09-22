@@ -1,3 +1,16 @@
+BUILD AND RUN DOCKER IMAGE:
+
+docker build -t IMAGE-NAME:TAG .
+ 
+ docker run -e APP_PORT=3000 -e NGINX_ENVSUBST_OUTPUT_DIR=/etc/nginx -dp <HOST-PORT i.e. 80>:3000 IMAGE-NAME:TAG
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
