@@ -22,3 +22,4 @@ COPY --from=build-stage /app/build/ /usr/share/nginx/html
 COPY --from=build-stage /app/nginx.conf /etc/nginx/templates/nginx.conf.template 
 
 EXPOSE 3000
+USER nginx

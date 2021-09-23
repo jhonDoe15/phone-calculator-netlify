@@ -3,7 +3,7 @@ apiVersion: apps/v1
 metadata:
   name: phone-calculator
 spec:
-  replicas: 3
+  replicas: 0
   selector:
     matchLabels:
       app: phone-calculator
@@ -14,10 +14,22 @@ spec:
     spec:
       containers:
         - name: phone-calculator
-          image: shavitdevops/final-image
+          image: noamyiz15/phone-calculator
+          env:
+          - name: APP_PORT
+            value: "3000"
+          - name: NGINX_ENVSUBST_OUTPUT_DIR
+            value: "/etc/nginx"
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
+          securityContext:
+            allowPrivilegeEscalation: false
+#            runAsNonRoot: true
+          resources:
+            limits:
+                cpu: '1'
+                memory: 250Mi
       restartPolicy: Always
   
 
