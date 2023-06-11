@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Icon, Image } from 'semantic-ui-react'
 
-const PhoneCard = (props) => {
+const PhoneCard = ({device, score}) => {
 
     const getTwoDecimalPoints = (score) => {
         if (score) {
@@ -10,29 +10,30 @@ const PhoneCard = (props) => {
         return score;
     }
 
+    console.log("here")
+
     return (
         <Card>
-            <Image src={props.device.ImageURL} size="small" className="centered" style={{backgroundColor: 'black', color: 'white'}} />
+            <Image src={device.image_url} size="small" className="centered" style={{backgroundColor: 'black', color: 'white'}} />
             <Card.Content style={{backgroundColor: 'black', color: 'white'}}>
-                <Card.Header style={{backgroundColor: 'black', color: 'white'}}>{props.device.devicename}</Card.Header>
+                <Card.Header style={{backgroundColor: 'black', color: 'white'}}>{device.device_name}</Card.Header>
                 <Card.Meta style={{backgroundColor: 'black', color: 'white'}}>
-                    <span className='date'>Launched in {props.device.year}</span>
+                    <span className='date'>Launched in {device.year}</span>
                 </Card.Meta>
                 <Card.Description style={{ textAlign: 'left', fontSize: '1.3em',backgroundColor: 'black', color: 'white' }}>
-                    IR: {props.device.ir === true ? "True" : "False"}<br />
-                    NFC: {props.device.nfc === true ? "True" : "False"}<br />
-                    DUALSIM: {props.device.dualsim === true ? "True" : "False"}<br />
-                    3.5mm Jack: {props.device.headphonejack === true ? "True" : "False"}<br />
-                    Battery Life: {props.device.batterylife}<br />
-                    Price: {props.device.price}$<br />
-                    Screen Size: {props.device.screensize}<br />
-                    Antutu: {props.device.antutu}<br />
-                    dxomarkScore: {props.device.dxomarkScore}<br />
+                    IR: {device.has_ir === true ? "True" : "False"}<br />
+                    NFC: {device.has_nfc === true ? "True" : "False"}<br />
+                    DUALSIM: {device.has_dual_sim === true ? "True" : "False"}<br />
+                    3.5mm Jack: {device.has_headphone_jack === true ? "True" : "False"}<br />
+                    Battery Life: {device.battery_life}<br />
+                    Price: {device.price}$<br />
+                    Screen Size: {device.screen_size}<br />
+                    Antutu: {device.antutu_score}<br />
                 </Card.Description>
             </Card.Content>
             <Card.Content extra style={{backgroundColor: 'black', color: 'white'}}>
                 <Icon color="red" name='certificate' />
-                {getTwoDecimalPoints(props.score)}
+                {getTwoDecimalPoints(score)}
             </Card.Content>
         </Card>
     )

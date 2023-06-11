@@ -1,7 +1,8 @@
 import React, { Fragment, useEffect, useState, lazy, Suspense } from 'react'
-import allDevices from './allDevices'
-import scores from './scores'
+// import allDevices from './allDevices'
+// import scores from './scores'
 import { Slider } from 'react-semantic-ui-range'
+import axios from 'axios'
 // import 'semantic-ui-css/semantic.min.css';
 import { Segment, Grid, Checkbox, Card } from 'semantic-ui-react';
 
@@ -11,34 +12,40 @@ const renderLoader = () => <p>Loading</p>;
 
 const PhonesDisplay = () => {
 
-    const [devices, setDevices] = useState(allDevices);
-    const [sliderAntutu, setSliderAntutu] = useState(scores.minPerformance);
-    const [bl, setBl] = useState(scores.minBatteryLife);
+    const [devices, setDevices] = useState([]);
+    const [sliderAntutu, setSliderAntutu] = useState(0);
+    const [bl, setBl] = useState(0);
     const [ir, setIr] = useState(false);
     const [considerPrice, setConsiderPrice] = useState(false);
     const [nfc, setNfc] = useState(false);
     const [dualSim, setDualSim] = useState(false);
     const [hj, setHj] = useState(false);
     const [edgeScores, setEdgeScores] = useState({});
+    const [fileteredDevices, setFileteredDevices] = useState([])
 
     const settings3 = {
-        start: scores.minPerformance,
-        min: scores.minPerformance,
-        max: scores.topPerformance,
-        step: 10000,
+        start: edgeScores.minPerformance,
+        min: edgeScores.minPerformance,
+        max: edgeScores.topPerformance,
+        step: 30000,
         onChange: (value) => {
             setSliderAntutu(value)
         }
     }
 
     const settings2 = {
-        start: scores.minBatteryLife,
-        min: scores.minBatteryLife,
-        max: scores.topBatteryLife,
+        start: edgeScores.minBatteryLife,
+        min: edgeScores.minBatteryLife,
+        max: edgeScores.topBatteryLife,
         step: 1,
         onChange: (value) => {
             setBl(value)
         }
+    }
+
+    const requestHeaders = {
+        "Access-Control-Allow-Origin":"*",
+        'Content-Type': 'application/json'
     }
 
 
@@ -55,51 +62,84 @@ const PhonesDisplay = () => {
     }
 
     const filteredDevices = (input_devices) => {
+        // console.log("current toggles", sliderAntutu, bl, hj, dualSim, ir, nfc)
         return input_devices
-            .filter(device => device.antutu > 0 && device.batterylife > 0 && device.price > 1)
-            .filter(phone => phone.antutu >= sliderAntutu)
-            .filter(phone => phone.batterylife >= bl)
-            .filter(phone => (phone.nfc && nfc) || !nfc)
-            .filter(phone => (phone.headphonejack && hj) || !hj)
-            .filter(phone => (phone.dualsim && dualSim) || !dualSim)
-            .filter(phone => (phone.ir && ir) || !ir)
+            .filter(device => device.antutu_score > 0 && device.battery_life > 0 && device.price > 1)
+            .filter(phone => phone.antutu_score >= sliderAntutu)
+            .filter(phone => phone.battery_life >= bl)
+            .filter(phone => (phone.has_nfc && nfc) || !nfc)
+            .filter(phone => (phone.has_headphone_jack && hj) || !hj)
+            .filter(phone => (phone.has_dual_sim && dualSim) || !dualSim)
+            .filter(phone => (phone.has_ir && ir) || !ir)
     }
 
     const maxScore = () => {
-        const device = filteredDevices(allDevices).reduce(function (a, b) {
-            const score = Math.max(calcScoreForDevice(a.antutu, a.batterylife, a.price), calcScoreForDevice(b.antutu, b.batterylife, b.price));
-            return calcScoreForDevice(a.antutu, a.batterylife, a.price) === score ? a : b;
-        })
-        return calcScoreForDevice(device.antutu, device.batterylife, device.price);
+        if(fileteredDevices.length > 0){
+            const device = fileteredDevices.reduce(function (a, b) {
+                const score = Math.max(calcScoreForDevice(a.antutu_score, a.battery_life, a.price), calcScoreForDevice(b.antutu_score, b.battery_life, b.price));
+                return calcScoreForDevice(a.antutu_score, a.battery_life, a.price) === score ? a : b;
+            })
+            return calcScoreForDevice(device.antutu_score, device.battery_life, device.price);
+        }
+
+        return 0
     }
 
-    const MAX_SCORE = maxScore();
+    // const MAX_SCORE = maxScore();
 
     const calcPoints = (score) => {
-        return score / MAX_SCORE * 100;
+        return score / maxScore() * 100;
     }
 
     const sortedDevices = (input_devices) => {
-        return filteredDevices(input_devices).sort((b, a) => calcPoints(calcScoreForDevice(a.antutu, a.batterylife, a.price)) - calcPoints(calcScoreForDevice(b.antutu, b.batterylife, b.price)))
-            .filter(device => calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price)) > 0)
+        return filteredDevices(input_devices)
+        .sort((b, a) => calcPoints(calcScoreForDevice(a.antutu_score, a.battery_life, a.price)) - calcPoints(calcScoreForDevice(b.antutu_score, b.battery_life, b.price)))
+        .filter(device => calcPoints(calcScoreForDevice(device.antutu_score, device.battery_life, device.price)) > 0)
+        // console.log("devices: ", devices)
+        // console.log("input_devices: ", input_devices)
+        // console.log("filtered input_devices: ", filteredDevices(input_devices))
+        // return return_list
     }
 
-    useEffect(() => {
-        setEdgeScores(scores);
-        setDevices(allDevices);
+    const getMinAntutu = (devices) => {
+        return devices.filter(device => device.antutu_score > 0).reduce((prev, curr) => prev.antutu_score > curr.antutu_score ? curr : prev).antutu_score
+    }
+    const getMaxAntutu = (devices) => {
+        return devices.reduce((prev, curr) => prev.antutu_score < curr.antutu_score ? curr : prev).antutu_score
+    }
+    const getMinBatteryLife = (devices) => {
+        return devices.filter(device => device.battery_life > 0).reduce((prev, curr) => prev.battery_life > curr.battery_life ? curr : prev).battery_life
+    }
+    const getMaxBatteryLife = (devices) => {
+        return devices.reduce((prev, curr) => prev.battery_life < curr.battery_life ? curr : prev).battery_life
+    }
+
+    useEffect(async () => {
+        await axios.get(`http://localhost:5000/phone/all`, {}, requestHeaders)
+            .then(res => {
+                const devices = res.data;
+                setDevices(devices);
+                setEdgeScores({
+                    minPerformance: getMinAntutu(devices),
+                    topPerformance: getMaxAntutu(devices),
+                    minBatteryLife: getMinBatteryLife(devices),
+                    topBatteryLife: getMaxBatteryLife(devices)
+                });
+                setBl(getMinBatteryLife(devices))
+                setSliderAntutu(getMinAntutu(devices))
+            })
     }, []);
 
 
-    const phones = sortedDevices(devices).map((device, index) => {
-        return (
-            <PhoneCard
-                style={{ display: 'inline-block' }}
-                key={index}
-                device={device}
-                score={calcPoints(calcScoreForDevice(device.antutu, device.batterylife, device.price))}
-            />
-        )
-    })
+    useEffect(() => {
+        // debugger;
+        if(devices.length>0){
+            // console.log(fileteredDevices)
+            setFileteredDevices(sortedDevices(devices));
+            // console.log(fileteredDevices)
+        }
+    }, [devices, sliderAntutu, bl, ir, considerPrice, nfc, dualSim, hj])
+    
 
     return (
         <Fragment>
@@ -145,7 +185,21 @@ const PhonesDisplay = () => {
                 <div className="twelve wide column">
                     <Suspense fallback={renderLoader()}>
                         <Card.Group>
-                            {phones}
+                        {
+                        fileteredDevices.length === 0 ? 
+                            <h2>No phones matched criteria</h2>
+                        : 
+                            fileteredDevices.map(device => {
+                                return (
+                                    <PhoneCard
+                                        style={{ display: 'inline-block' }}
+                                        key={device.id}
+                                        device={device}
+                                        score={calcPoints(calcScoreForDevice(device.antutu_score, device.battery_life, device.price))}
+                                    />
+                                )
+                            })
+                        }
                         </Card.Group>
                     </Suspense>
                 </div>
