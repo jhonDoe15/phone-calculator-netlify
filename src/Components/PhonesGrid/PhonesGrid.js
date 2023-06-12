@@ -8,7 +8,7 @@ import { Segment, Grid, Checkbox, Card } from 'semantic-ui-react';
 
 const PhoneCard = lazy(() => import('../PhoneCard/PhoneCard'));
 
-const renderLoader = () => <p>Loading</p>;
+const renderLoader = () => <h2>Loading... 🥴</h2>;
 
 const PhonesDisplay = () => {
 

@@ -10,8 +10,6 @@ const PhoneCard = ({device, score}) => {
         return score;
     }
 
-    console.log("here")
-
     return (
         <Card>
             <Image src={device.image_url} size="small" className="centered" style={{backgroundColor: 'black', color: 'white'}} />
